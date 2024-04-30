@@ -1,0 +1,89 @@
+/*
+============================================================================= */
+/* import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Geologica:slnt,wght,CRSV,SHRP@-12..0,100..900,0..1,0..100&family=Orbitron:wght@400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+/**
+ * This injects Tailwind's base styles and any base styles registered by
+ * plugins.
+ */
+@tailwind base;
+/**
+ * This injects Tailwind's component classes and any component classes
+ * registered by plugins.
+ */
+@tailwind components;
+/**
+ * This injects Tailwind's utility classes and any utility classes registered
+ * by plugins.
+ */
+@tailwind utilities;
+
+/*
+============================================================================= */
+
+@layer base {
+	/* add base styles here */
+
+	/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+// <slant>: Use a value from -12 to 0
+// <cursive>: Use a value from 0 to 1
+// <sharpness>: Use a value from 0 to 100 */
+
+	.geologica-ts {
+		font-family: 'Geologica', sans-serif;
+		font-optical-sizing: auto;
+		font-style: normal;
+		font-variation-settings:
+			'slnt' <slant>,
+			'CRSV' <cursive>,
+			'SHRP' <sharpness>;
+		font-weight: <weight>;
+	}
+
+	/* // <uniquifier>: Use a unique and descriptive class name */
+	/* // <weight>: Use a value from 400 to 900 */
+
+	.orbitron-ts {
+		font-family: 'Orbitron', sans-serif;
+		font-optical-sizing: auto;
+		font-style: normal;
+		font-weight: <weight>;
+	}
+
+	/* // <uniquifier>: Use a unique and descriptive class name */
+	/* // <weight>: Use a value from 200 to 800 */
+
+	.plus-jakarta-sans-ts {
+		font-family: 'Plus Jakarta Sans', sans-serif;
+		font-optical-sizing: auto;
+		font-style: normal;
+		font-weight: <weight>;
+	}
+
+	body {
+		/* … */
+		@apply bg-surface-1 dark:bg-surface-6;
+	}
+}
+
+@layer components {
+	/* add component styles here */
+}
+
+@layer utilities {
+	/* add utility styles here */
+}
+
+/**
+* The screen function allows you to create media queries that reference
+* your breakpoints by name instead of duplicating their values in your own CSS.
+*/
+
+@media screen(sm) {
+	/* small */
+	body {
+		/* … */
+	}
+}
