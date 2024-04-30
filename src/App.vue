@@ -7,7 +7,7 @@ import Header from '@/containers/Header.vue'
 import Maintenance from '@/containers/Maintenance.vue'
 
 const route = useRoute()
-const state = reactive({ maintenanceMode: true }) // Set to true or false based on your maintenance status
+const state = reactive({ maintenanceMode: false }) // Set to true or false based on your maintenance status
 
 watchEffect(() => {
 	const _ = route.path
