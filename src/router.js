@@ -3,11 +3,16 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 // Import the Vue components that will be used as pages
 import Home from '@/containers/Home.vue'
+import Maintenance from '@/containers/Maintenance.vue'
 
 // Define the routes for the application. Each route is an object with a `path` and a `component`.
 // The `path` is the URL path for the route, and the `component` is the Vue component that will be displayed when the user navigates to the path.
 const routes = [
 	{ path: '/', component: Home }, // Home page route
+	{
+		path: '/maintenance',
+		component: Maintenance,
+	}, // Maintenance page route
 ]
 
 // Create the router instance. The router is configured with a history mode and the routes.

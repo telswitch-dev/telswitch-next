@@ -1,11 +1,13 @@
 <script setup>
 // JavaScript code for the component goes here
-import { watchEffect } from 'vue'
+import { watchEffect, reactive } from 'vue'
 import { useRoute } from 'vue-router'
 
 import Header from '@/containers/Header.vue'
+import Maintenance from '@/containers/Maintenance.vue'
 
 const route = useRoute()
+const state = reactive({ maintenanceMode: true }) // Set to true or false based on your maintenance status
 
 watchEffect(() => {
 	const _ = route.path
@@ -15,13 +17,16 @@ watchEffect(() => {
 
 <template>
 	<!-- HTML template for the component goes here -->
-	<Header />
-	<main class="content h-full">
-		<router-view v-slot="{ Component }">
-			<component :is="Component" />
-		</router-view>
-	</main>
-	<footer class="pb-[1000px]">footer</footer>
+	<div v-if="!state.maintenanceMode">
+		<Header />
+		<main class="content h-full">
+			<router-view v-slot="{ Component }">
+				<component :is="Component" />
+			</router-view>
+		</main>
+		<footer class="pb-[1000px]">footer</footer>
+	</div>
+	<Maintenance v-else />
 </template>
 
 <style scoped>
