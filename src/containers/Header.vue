@@ -5,15 +5,20 @@
 <template>
 	<header class="">
 		<div class="flex items-center justify-between gap-4 p-6">
-			<div class="logo">
+			<!-- <div class="logo">
 				<span class="font-display text-2xl">TelSwitch</span>
+			</div> -->
+			<div class="logo overflow-clip">
+				<svg class="h-[40px]">
+					<use href="@/assets/telswitch-logotype-white.svg#logo" />
+				</svg>
 			</div>
 
 			<div>
 				<!-- This div becomes visible when the viewport is mobile size and the mobile navigation is active -->
 				<div
 					:class="{ open: mobileNav }"
-					class="max_md:block hidden"
+					class="hidden max_md:block"
 					v-if="isMobile"
 					@click="mobileNav = !mobileNav"
 				>
@@ -168,11 +173,11 @@ export default {
 <style scoped>
 /* basics */
 header {
-	@apply dark:bg-surface-6 dark:text-surface-1 sticky top-0 z-50 h-[88px] w-full bg-white/85 backdrop-blur-md dark:bg-opacity-90;
+	@apply sticky top-0 z-50 h-[88px] w-full bg-white/85 backdrop-blur-md dark:bg-surface-6 dark:bg-opacity-90 dark:text-surface-1;
 }
 
 header ul {
-	@apply dark:text-surface-1 flex items-baseline justify-start font-light text-gray-500/70;
+	@apply flex items-baseline justify-start font-light text-gray-500/70 dark:text-surface-1;
 }
 
 /* hamburger */
@@ -209,7 +214,7 @@ div.open .hamburger .line3 {
 }
 
 .nav-desktop {
-	@apply max_md:hidden flex-row gap-6;
+	@apply flex-row gap-6 max_md:hidden;
 }
 /* nav in mobile */
 .nav-mobile {

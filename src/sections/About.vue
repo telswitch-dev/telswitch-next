@@ -6,8 +6,11 @@
 
 <template>
 	<!-- HTML template for the component goes here -->
+	<!-- <div
+		class="flex min-h-[500px] flex-col items-start justify-center gap-6 bg-gradient-to-r text-4xl dark:from-surface-6 dark:to-surface-5 dark:text-surface-2"
+	> -->
 	<div
-		class="dark:from-surface-6 dark:to-surface-5 dark:text-surface-2 flex min-h-[500px] flex-col items-start justify-center gap-6 bg-gradient-to-b text-4xl"
+		class="flex min-h-[500px] flex-col items-start justify-center gap-6 bg-surface-6 text-4xl text-surface-2"
 	>
 		About Section
 	</div>

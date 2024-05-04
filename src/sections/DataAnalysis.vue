@@ -7,7 +7,7 @@
 <template>
 	<!-- HTML template for the component goes here -->
 	<div
-		class="dark:text-surface-2 dark:from-surface-6 dark:to-surface-5 flex min-h-[500px] flex-col items-start justify-center gap-6 bg-gradient-to-b text-4xl"
+		class="flex min-h-[500px] flex-col items-start justify-center gap-6 bg-gradient-to-l text-4xl dark:from-surface-6 dark:to-surface-5 dark:text-surface-2"
 	>
 		Data Analysis Section
 	</div>
