@@ -7,19 +7,23 @@
 <template>
 	<!-- HTML template for the component goes here -->
 	<div
-		class="flex h-[650px] flex-col items-start justify-center gap-6 bg-gradient-to-l dark:from-surface-6 dark:to-surface-5 dark:text-surface-2"
+		class="flex min-h-[650px] flex-col items-start justify-center gap-6 bg-gradient-to-l from-surface-6 to-surface-5 text-surface-2"
 	>
-		<div class="flex h-full w-full items-stretch justify-between gap-4 px-10">
+		<h2
+			class="drop-shadow-outline relative inline-block bg-gradient-to-r from-ts-orange-coral-500 via-ts-blue-spruce-800 to-ts-green-mineral-400 bg-clip-text px-10 text-5xl font-extrabold uppercase leading-none text-surface-1 text-transparent max_m_xl:text-3xl"
+		>
+			Bringing Insights Into Life’s Digital Fingerprints
+		</h2>
+		<div class="section-inner">
 			<div class="flex-1 self-center">
-				<h2 class="text-4xl font-bold leading-normal">
-					Bringing Insights Into Life’s Digital Fingerprints
-				</h2>
-				<p class="mt-2 text-xl leading-normal">
+				<p class="mt-2 text-xl leading-normal max_m_xl:text-lg">
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati provident dolorem iste
 					laboriosam possimus laborum minus, quam voluptatibus quis modi animi, voluptate dolorum a
 					aliquam dolore autem pariatur optio inventore! s
 				</p>
-				<button class="btn btn-primary btn-xl mt-6">Read More…</button>
+				<button class="rt-btn mt-6 text-xl">
+					<span>Read More…</span>
+				</button>
 			</div>
 			<div class="flex-1">
 				<svg class="h-full w-full">
@@ -32,15 +36,4 @@
 
 <style scoped>
 /* CSS styles for the component go here */
-.btn {
-	@apply rounded-full border-2 border-surface-6 bg-surface-1/5 px-6 py-2 font-semibold text-surface-2;
-}
-
-.btn-xl {
-	@apply px-8 py-4 text-2xl;
-}
-
-.btn-primary {
-	@apply bg-surface-6 text-surface-1/90;
-}
 </style>

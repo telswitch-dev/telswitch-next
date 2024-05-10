@@ -47,10 +47,10 @@
 						<a>About</a>
 					</li>
 					<li
-						:class="{ 'active-data-analysis': activeSection === 'data-analysis' }"
-						@click="navigateToSection('data-analysis')"
+						:class="{ 'active-data-analytics': activeSection === 'data-analytics' }"
+						@click="navigateToSection('data-analytics')"
 					>
-						<a>Data Analysis</a>
+						<a>Data Analytics</a>
 					</li>
 					<li
 						:class="{ 'active-history': activeSection === 'history' }"

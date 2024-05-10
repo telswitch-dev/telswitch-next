@@ -70,6 +70,53 @@
 
 @layer components {
 	/* add component styles here */
+	/*	section inner
+	============================================================================= */
+	.section-inner {
+		@apply flex h-full w-full items-stretch justify-between gap-4 px-10 max_m_xl:mt-4 max_m_xl:flex-col;
+		/* > div {
+			@apply flex-1;
+		} */
+	}
+
+	/*	buttons
+	============================================================================= */
+	.btn {
+		@apply rounded-full border-2 border-surface-6 bg-surface-1/5 px-6 py-2 font-semibold text-surface-2;
+	}
+
+	.btn-primary {
+		@apply bg-surface-6 text-surface-1/90;
+	}
+
+	/* retro button */
+	.rt-btn {
+		@apply relative inline-block rounded-3xl bg-gradient-to-b from-ts-orange-coral-500 via-ts-coffee-roman-800 via-20% to-ts-green-mineral-800 p-1;
+		span {
+			@apply block rounded-3xl bg-surface-6 px-6 py-2 text-center font-semibold uppercase;
+		}
+		/* &.rt-btn-blue-zodiac span {
+			@apply bg-rt-blue-zodiac-900 text-rt-blue-zodiac-200;
+		}
+		&.rt-btn-yellow-sandwisp span {
+			@apply block rounded-full bg-rt-yellow-sandwisp-900 px-3 py-2 text-center font-semibold uppercase text-rt-yellow-sandwisp-200;
+		}
+		&.rt-btn-blue-calypso {
+			@apply from-rt-blue-calypso-500 via-rt-green-apple-600 to-rt-purple-jagger-700;
+		}
+		&.rt-btn-blue-calypso span {
+			@apply bg-rt-blue-calypso-800 text-rt-blue-calypso-200;
+		}
+		&.rt-btn-pink-cerise {
+			@apply from-rt-pink-cerise-500 via-rt-green-apple-600 to-rt-purple-jagger-700;
+		}
+		&.rt-btn-pink-cerise span {
+			@apply bg-rt-blue-calypso-800 text-rt-blue-calypso-200;
+		}
+		&.rt-btn-purple-jagger span {
+			@apply bg-rt-purple-jagger-900 text-rt-purple-jagger-200;
+		} */
+	}
 }
 
 @layer utilities {
