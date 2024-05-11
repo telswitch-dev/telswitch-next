@@ -4,14 +4,13 @@
 
 <template>
 	<header class="">
-		<div class="flex items-center justify-between gap-4 p-6">
-			<!-- <div class="logo">
-				<span class="font-display text-2xl">TelSwitch</span>
-			</div> -->
+		<div class="flex items-center justify-between gap-4 p-6 pl-10">
 			<div class="logo overflow-clip">
-				<svg class="h-[40px]">
-					<use href="@/assets/telswitch-logotype-white.svg#logo" />
-				</svg>
+				<a href="/">
+					<svg class="h-[40px]">
+						<use href="@/assets/telswitch-logotype-white.svg#logo" />
+					</svg>
+				</a>
 			</div>
 
 			<div>
@@ -71,10 +70,10 @@
 						<a>Future</a>
 					</li>
 					<li
-						:class="{ 'active-contact': activeSection === 'contact' }"
-						@click="navigateToSection('contact')"
+						:class="{ 'active-products': activeSection === 'products' }"
+						@click="navigateToSection('products')"
 					>
-						<a>Contact</a>
+						<a>Products</a>
 					</li>
 				</ul>
 			</div>
@@ -229,21 +228,21 @@ div.open .hamburger .line3 {
 	@apply text-orange-900;
 } */
 .active-about {
-	@apply text-gray-200;
+	@apply text-blue-500;
 }
-.active-rsvp {
-	@apply text-blue-200;
+.active-data-analytics {
+	@apply text-blue-500;
 }
-.active-share {
-	@apply text-indigo-200;
+.active-history {
+	@apply text-blue-500;
 }
-.active-gallery {
-	@apply text-purple-200;
+.active-expertise {
+	@apply text-blue-500;
 }
-.active-music {
-	@apply text-green-200;
+.active-future {
+	@apply text-blue-500;
 }
-.active-quiz {
-	@apply text-orange-200;
+.active-products {
+	@apply text-blue-500;
 }
 </style>

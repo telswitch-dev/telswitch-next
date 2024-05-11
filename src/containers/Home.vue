@@ -5,7 +5,7 @@ import DataAnalytics from '@/sections/DataAnalytics.vue'
 import History from '@/sections/History.vue'
 import Expertise from '@/sections/Expertise.vue'
 import Future from '@/sections/Future.vue'
-import Contact from '@/sections/Contact.vue'
+import Products from '@/sections/Products.vue'
 </script>
 
 <template>
@@ -27,7 +27,7 @@ import Contact from '@/sections/Contact.vue'
 	<section id="future" class="h-full">
 		<Future />
 	</section>
-	<section id="contact" class="h-full">
-		<Contact />
+	<section id="products" class="h-full">
+		<Products />
 	</section>
 </template>

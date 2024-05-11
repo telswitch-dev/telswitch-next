@@ -11,12 +11,8 @@
 	>
 		<div class="section-inner">
 			<div class="flex-[2]">
-				<h2
-					class="drop-shadow-glow inline-block text-3xl font-extrabold uppercase leading-none text-surface-3 max_m_xl:text-3xl"
-				>
-					Data Analytics
-				</h2>
-				<p class="mt-2">
+				<h2>Data Analytics</h2>
+				<p>
 					Since 1994, TelSwitch, Inc. has been on the forefront of applying sophisticated techniques
 					toward the analysis of large data sets. We do this by implementing the latest
 					technologies, such as GRAID’s GPU-based data acceleration, in order to expedite the

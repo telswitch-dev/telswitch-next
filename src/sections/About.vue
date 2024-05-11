@@ -17,7 +17,7 @@
 				>
 					About
 				</h2>
-				<p class="mt-2">
+				<p>
 					About TelSwitch, Inc. has worked on over a thousand matters involving wage and hour,
 					Telephone Computer Protection Act (“TCPA”) and commercial disputes, and is respected for
 					its’ objectivity and rich insights into litigants’ data. Our motto, “Bringing insight into
