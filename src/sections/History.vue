@@ -11,7 +11,7 @@
 	>
 		<div class="section-inner">
 			<div class="flex-1">&nbsp;</div>
-			<div class="flex-[2]">
+			<div class="flex-[2]" data-aos="fade-left">
 				<h2>History <small>Background of TelSwitch, Inc.</small></h2>
 				<p>
 					Our story began in 1991 when TelSwitch, Inc.’s founder presented a mock-business to his

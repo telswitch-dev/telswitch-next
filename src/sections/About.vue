@@ -11,9 +11,9 @@
 	>
 		<div class="section-inner">
 			<div class="flex-1">&nbsp;</div>
-			<div class="flex-[2]">
+			<div class="flex-[2]" data-aos="fade-left">
 				<h2
-					class="drop-shadow-glow inline-block text-3xl font-extrabold uppercase leading-none text-surface-3 max_m_xl:text-3xl"
+					class="inline-block text-3xl font-extrabold uppercase leading-none text-surface-3 drop-shadow-glow max_m_xl:text-3xl"
 				>
 					About
 				</h2>

@@ -11,7 +11,7 @@
 	>
 		<div class="section-inner">
 			<div class="flex-1">&nbsp;</div>
-			<div class="flex-[2]">
+			<div class="flex-[2]" data-aos="fade-left">
 				<h2>Future</h2>
 				<p>
 					In 2024, TelSwitch, Inc. began incorporating NVIDIA’s GPU-driven data acceleration into

@@ -7,6 +7,10 @@ import router from './router.js'
 // Import the main CSS file for the application
 import './styles/main.css'
 
+// Import Animate on Scroll
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 // Import the main Vue component for the application
 import App from './App.vue'
 
@@ -15,6 +19,9 @@ const app = createApp(App)
 
 // Use the Vue Router instance with the app
 app.use(router)
+
+// Initialize Animate on Scroll
+AOS.init()
 
 // Mount the Vue application to the HTML element with the id 'app'
 app.mount('#app')

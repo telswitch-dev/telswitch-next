@@ -10,7 +10,7 @@
 		class="flex min-h-[500px] flex-col items-start justify-center gap-6 bg-gradient-to-l text-lg text-surface-2"
 	>
 		<div class="section-inner">
-			<div class="flex-[2]">
+			<div class="flex-[2]" data-aos="fade-right">
 				<h2>Expertise</h2>
 				<p>
 					As described by our tagline, “Bringing insight into life’s digital fingerprints”, we are

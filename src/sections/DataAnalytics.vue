@@ -10,7 +10,7 @@
 		class="flex min-h-[500px] flex-col items-start justify-center gap-6 bg-gradient-to-l text-lg dark:from-surface-6 dark:to-surface-5 dark:text-surface-2"
 	>
 		<div class="section-inner">
-			<div class="flex-[2]">
+			<div class="flex-[2]" data-aos="fade-right">
 				<h2>Data Analytics</h2>
 				<p>
 					Since 1994, TelSwitch, Inc. has been on the forefront of applying sophisticated techniques

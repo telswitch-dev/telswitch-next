@@ -10,7 +10,7 @@
 		class="flex min-h-[500px] flex-col items-start justify-center gap-6 bg-surface-6 bg-gradient-to-b text-lg text-surface-2"
 	>
 		<div class="section-inner">
-			<div class="flex-[2]">
+			<div class="flex-[2]" data-aos="fade-right">
 				<h2>Products</h2>
 				<p>
 					TelSwitch, Inc. primarily focuses on data analysis related to class action litigation.
