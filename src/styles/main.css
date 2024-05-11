@@ -64,7 +64,7 @@
 
 	section {
 		h2 {
-			@apply drop-shadow-glow inline-block text-3xl font-extrabold uppercase leading-none text-surface-3 max_m_xl:text-3xl;
+			@apply inline-block text-3xl font-extrabold uppercase leading-none text-surface-3 drop-shadow-glow max_m_xl:text-3xl;
 			small {
 				@apply tracking-widest text-surface-4;
 				font-size: 0.6em;
@@ -86,10 +86,22 @@
 
 @layer components {
 	/* add component styles here */
-	/*	section inner
+	/*	section
 	============================================================================= */
+	.video-container {
+		@apply absolute left-0 top-0 h-full w-full bg-black;
+		&::after {
+			content: '';
+			@apply absolute left-0 top-0 z-10 h-full w-full;
+		}
+		video {
+			@apply absolute left-0 top-0 h-full w-full object-cover;
+		}
+	}
+
+	/*  */
 	.section-inner {
-		@apply flex h-full w-full items-stretch justify-between gap-4 px-10 max_m_xl:mt-4 max_m_xl:flex-col;
+		@apply z-20 flex h-full w-full items-stretch justify-between gap-4 px-10 max_m_xl:mt-4 max_m_xl:flex-col;
 		/* > div {
 			@apply flex-1;
 		} */

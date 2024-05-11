@@ -2,13 +2,23 @@
 ============================================================================= -->
 <script setup>
 // JavaScript code for the component goes here
+import videoSrc from '@/assets/video/st-nebula-ring-cloud-00.webm'
 </script>
 
 <template>
 	<!-- HTML template for the component goes here -->
 	<div
-		class="flex min-h-[500px] flex-col items-start justify-center gap-6 bg-surface-5 text-lg text-surface-2"
+		class="relative flex min-h-[500px] flex-col items-start justify-center gap-6 bg-surface-5 text-lg text-surface-2"
 	>
+		<!-- video bg -->
+		<div class="video-container">
+			<video autoplay loop muted>
+				<source :src="videoSrc" type="video/webm" />
+				Your browser does not support the video tag.
+			</video>
+		</div>
+
+		<!-- content -->
 		<div class="section-inner">
 			<div class="flex-1">&nbsp;</div>
 			<div class="flex-[2]" data-aos="fade-left">
@@ -34,4 +44,9 @@
 
 <style scoped>
 /* CSS styles for the component go here */
+.video-container {
+	&::after {
+		@apply bg-surface-6/90;
+	}
+}
 </style>
