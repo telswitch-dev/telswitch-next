@@ -24,7 +24,7 @@ watchEffect(() => {
 				<component :is="Component" />
 			</router-view>
 		</main>
-		<footer class="pb-[1000px]">footer and contact</footer>
+		<footer class="pb-[900px]">footer and contact</footer>
 	</div>
 	<Maintenance v-else />
 </template>

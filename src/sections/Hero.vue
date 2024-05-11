@@ -7,12 +7,12 @@
 <template>
 	<!-- HTML template for the component goes here -->
 	<div
-		class="flex min-h-[650px] flex-col items-start justify-center gap-6 bg-gradient-to-l from-surface-6 to-surface-5 text-surface-2"
+		class="flex min-h-[600px] flex-col items-start justify-center gap-6 bg-gradient-to-l from-surface-6 to-surface-5 text-surface-2"
 	>
 		<div class="section-inner">
 			<div class="flex-[2] self-center">
 				<h2
-					class="relative inline-block bg-gradient-to-r from-ts-orange-coral-500 via-ts-blue-spruce-800 to-ts-green-mineral-400 bg-clip-text text-5xl font-extrabold uppercase leading-none text-surface-1 text-transparent drop-shadow-outline max_m_xl:text-3xl"
+					class="relative inline-block bg-gradient-to-br from-ts-orange-coral-500 via-ts-blue-spruce-800 to-ts-green-mineral-400 bg-clip-text text-5xl font-extrabold uppercase leading-none text-surface-1 text-transparent drop-shadow-outline max_m_xl:text-3xl"
 				>
 					Bringing Insights Into Life’s Digital Fingerprints
 				</h2>
@@ -30,9 +30,67 @@
 				</svg>
 			</div>
 		</div>
+		<div
+			class="mx-auto mt-8 flex items-start justify-center gap-8 rounded-full bg-gradient-to-br from-ts-green-mineral-600 to-ts-green-mineral-800 p-8 px-24 text-ts-green-mineral-200 drop-shadow-outline"
+		>
+			<div class="fade-in flex flex-col items-center justify-center text-lg font-light">
+				<span class="mb-1 text-5xl font-bold text-ts-green-mineral-100 drop-shadow-outline">
+					94
+				</span>
+				<span>Cases in 2022</span>
+			</div>
+
+			<div class="fade-in flex flex-col items-center justify-center">
+				<span class="mb-1 text-5xl font-bold text-ts-green-mineral-100 drop-shadow-outline">
+					93
+				</span>
+				<span>Cases in 2023</span>
+			</div>
+
+			<div class="fade-in flex flex-col items-center justify-center">
+				<span class="mb-1 text-5xl font-bold text-ts-green-mineral-100 drop-shadow-outline">
+					81
+				</span>
+				<span>National DNC Audits</span>
+			</div>
+
+			<div class="fade-in flex flex-col items-center justify-center self-center">
+				<span class="mb-1 text-4xl font-bold text-ts-green-mineral-100 drop-shadow-outline">
+					90,576,778,862*
+				</span>
+				<span>DNC Records Aggregated <small>(Yearly)</small></span>
+			</div>
+		</div>
 	</div>
 </template>
 
 <style scoped>
 /* CSS styles for the component go here */
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.fade-in {
+	opacity: 0; /* Start at opacity 0 */
+	animation: fadeIn 2s ease-in-out forwards;
+}
+
+/* Apply different animation delays */
+.fade-in:nth-child(1) {
+	animation-delay: 0.1s;
+}
+.fade-in:nth-child(2) {
+	animation-delay: 0.5s;
+}
+.fade-in:nth-child(3) {
+	animation-delay: 1s;
+}
+.fade-in:nth-child(4) {
+	animation-delay: 1.5s;
+}
 </style>

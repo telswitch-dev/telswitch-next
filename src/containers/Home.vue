@@ -9,25 +9,25 @@ import Products from '@/sections/Products.vue'
 </script>
 
 <template>
-	<section id="hero" class="h-full">
+	<section id="hero" class="h-full drop-shadow-xl">
 		<Hero />
 	</section>
-	<section id="about" class="h-full">
+	<section id="about" class="h-full drop-shadow-xl">
 		<About />
 	</section>
-	<section id="data-analytics" class="h-full">
+	<section id="data-analytics" class="h-full drop-shadow-xl">
 		<DataAnalytics />
 	</section>
-	<section id="history" class="h-full">
+	<section id="history" class="h-full drop-shadow-xl">
 		<History />
 	</section>
-	<section id="expertise" class="h-full">
+	<section id="expertise" class="h-full drop-shadow-xl">
 		<Expertise />
 	</section>
-	<section id="future" class="h-full">
+	<section id="future" class="h-full drop-shadow-xl">
 		<Future />
 	</section>
-	<section id="products" class="h-full">
+	<section id="products" class="h-full drop-shadow-xl">
 		<Products />
 	</section>
 </template>

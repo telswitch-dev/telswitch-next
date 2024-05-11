@@ -1,0 +1,7 @@
+```sh
+ffmpeg -i ___buffer/st-nebula-cloud-01.webm -c:v libvpx-vp9 -crf 30 -b:v 0 -b:a 128k -c:a libopus st-nebula-cloud-01.webm
+```
+
+```sh
+ffmpeg -i ___buffer/st-tri-network-00.webm -c:v libvpx-vp9 -crf 50 -b:v 0 -b:a 128k -c:a libopus st-tri-network-00.webm
+```
