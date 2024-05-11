@@ -18,12 +18,15 @@
 					About
 				</h2>
 				<p>
-					About TelSwitch, Inc. has worked on over a thousand matters involving wage and hour,
-					Telephone Computer Protection Act (“TCPA”) and commercial disputes, and is respected for
-					its’ objectivity and rich insights into litigants’ data. Our motto, “Bringing insight into
-					life’s digital fingerprints”, is the result of weaving together millions of distinct data
-					points into fact patterns that law firms can rely upon at various stages of litigation,
-					which can be used to objectively describe events that occurred without confirmation bias.
+					<strong>TelSwitch, Inc.</strong> has worked on over a thousand matters involving wage and
+					hour, Telephone Computer Protection Act (“TCPA”) and commercial disputes, and is respected
+					for its’ objectivity and rich insights into litigants’ data.
+				</p>
+				<p>
+					Our motto, “Bringing insight into life’s digital fingerprints”, is the result of weaving
+					together millions of distinct data points into fact patterns that law firms can rely upon
+					at various stages of litigation, which can be used to objectively describe events that
+					occurred without confirmation bias.
 				</p>
 			</div>
 		</div>
