@@ -4,6 +4,9 @@ import { createApp } from 'vue'
 // Import the Vue Router instance
 import router from './router.js'
 
+// Import the Popper component
+import Popper from 'vue3-popper'
+
 // Import the main CSS file for the application
 import './styles/main.css'
 
@@ -19,6 +22,9 @@ const app = createApp(App)
 
 // Use the Vue Router instance with the app
 app.use(router)
+
+// Use the Popper component with the app
+app.component('Popper', Popper)
 
 // Initialize Animate on Scroll
 AOS.init()

@@ -10,7 +10,8 @@
   },
   "dependencies": {
     "aos": "^2.3.4",
-    "vue": "^3.4.21"
+    "vue": "^3.4.21",
+    "vue3-popper": "^1.5.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
