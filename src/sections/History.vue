@@ -33,7 +33,7 @@ onUnmounted(() => {
 
 		<!-- content -->
 		<div class="section-inner">
-			<div class="flex-1 max_m_xl:hidden">&nbsp;</div>
+			<div class="flex-1 max_md:hidden">&nbsp;</div>
 			<div class="flex-[2]" data-aos="fade-left">
 				<h2>History <small>Background of TelSwitch, Inc.</small></h2>
 				<p>

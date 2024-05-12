@@ -66,7 +66,7 @@
 	============================================================================= */
 	section,
 	footer {
-		@apply text-xl max_m_xl:text-base;
+		@apply text-xl max_md:text-base;
 		h2 {
 			@apply inline-block text-3xl font-extrabold uppercase leading-none text-surface-3 drop-shadow-glow max_m_xl:text-2xl max_m_xl:leading-6;
 			small {
@@ -93,6 +93,17 @@
 	/*	section
 	============================================================================= */
 	/* #region  */
+
+	section {
+		@apply h-full overflow-x-hidden drop-shadow-xl;
+	}
+
+	.section-inner {
+		@apply z-20 flex h-full w-full items-stretch justify-between gap-4 px-10 max_md:mt-4 max_md:flex-col;
+		/* > div {
+			@apply flex-1;
+		} */
+	}
 	.video-container {
 		@apply absolute left-0 top-0 h-full w-full bg-black;
 		&::after {
@@ -102,14 +113,6 @@
 		video {
 			@apply absolute left-0 top-0 h-full w-full object-cover;
 		}
-	}
-
-	/*  */
-	.section-inner {
-		@apply z-20 flex h-full w-full items-stretch justify-between gap-4 px-10 max_m_xl:mt-4 max_m_xl:flex-col;
-		/* > div {
-			@apply flex-1;
-		} */
 	}
 	/* #endregion */
 

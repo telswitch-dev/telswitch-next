@@ -22,7 +22,7 @@
 					successfully navigated over a thousand matters in which we have been retained as experts.
 				</p>
 			</div>
-			<div class="flex-1 max_m_xl:hidden">&nbsp;</div>
+			<div class="flex-1 max_md:hidden">&nbsp;</div>
 		</div>
 	</div>
 </template>
