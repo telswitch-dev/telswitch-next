@@ -4,6 +4,7 @@ import { watchEffect, reactive } from 'vue'
 import { useRoute } from 'vue-router'
 
 import Header from '@/containers/Header.vue'
+import Footer from '@/containers/Footer.vue'
 import Maintenance from '@/containers/Maintenance.vue'
 
 const route = useRoute()
@@ -24,7 +25,7 @@ watchEffect(() => {
 				<component :is="Component" />
 			</router-view>
 		</main>
-		<footer class="pb-[900px]">footer and contact</footer>
+		<Footer />
 	</div>
 	<Maintenance v-else />
 </template>

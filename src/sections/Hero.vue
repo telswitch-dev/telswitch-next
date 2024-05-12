@@ -55,8 +55,13 @@
 			</div>
 
 			<div class="fade-in flex flex-col items-center justify-center self-center">
-				<span class="mb-1 text-4xl font-bold text-ts-green-mineral-100 drop-shadow-outline">
-					90,576,778,862*
+				<span
+					class="mb-1 text-4xl font-bold text-ts-green-mineral-100 drop-shadow-outline"
+					title="Aproximation of DNC Records Aggregated in 2023"
+				>
+					90,576,778,862<sup class="inline-block -translate-y-3 text-xs text-ts-green-mineral-400">
+						*
+					</sup>
 				</span>
 				<span>DNC Records Aggregated <small>(Yearly)</small></span>
 			</div>
