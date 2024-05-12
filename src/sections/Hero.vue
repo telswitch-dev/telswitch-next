@@ -20,18 +20,18 @@
 					<strong>TelSwitch, Inc.</strong> specializes in validating data used in litigation, and
 					providing expert testimony in court.
 				</p>
-				<button class="rt-btn mt-6 text-xl">
+				<!-- <button class="rt-btn mt-6 text-xl">
 					<span>Read More…</span>
-				</button>
+				</button> -->
 			</div>
-			<div class="fade-in flex-1">
+			<div class="fade-in flex-1 max_m_xl:mt-4">
 				<svg class="h-full w-full -translate-x-10 scale-125">
 					<use href="@/assets/telswitch-dude-white.svg#logo" />
 				</svg>
 			</div>
 		</div>
 		<div
-			class="fade-in fast mx-auto mt-8 flex items-start justify-center gap-8 rounded-full bg-gradient-to-b from-ts-green-mineral-600 to-ts-green-mineral-800 p-8 px-24 text-ts-green-mineral-200 drop-shadow-outline"
+			class="fade-in fast mx-auto mt-8 flex items-start justify-center gap-8 rounded-full bg-gradient-to-b from-ts-green-mineral-600 to-ts-green-mineral-800 p-8 px-24 text-ts-green-mineral-200 drop-shadow-outline max_m_xl:flex-col max_m_xl:items-center max_m_xl:rounded-none"
 		>
 			<div class="fade-in flex flex-col items-center justify-center text-lg font-light">
 				<span class="mb-1 text-5xl font-bold text-ts-green-mineral-100 drop-shadow-outline">
@@ -56,14 +56,17 @@
 
 			<div class="fade-in flex flex-col items-center justify-center self-center">
 				<span
-					class="mb-1 text-4xl font-bold text-ts-green-mineral-100 drop-shadow-outline"
+					class="mb-1 text-4xl font-bold text-ts-green-mineral-100 drop-shadow-outline max_m_xl:text-3xl"
 					title="Aproximation of DNC Records Aggregated in 2023"
 				>
 					90,576,778,862<sup class="inline-block -translate-y-3 text-xs text-ts-green-mineral-400">
 						*
 					</sup>
 				</span>
-				<span>DNC Records Aggregated <small>(Yearly)</small></span>
+				<span
+					>DNC Records Aggregated
+					<small class="max_m_xl:block max_m_xl:text-center">(Yearly)</small></span
+				>
 			</div>
 		</div>
 	</div>

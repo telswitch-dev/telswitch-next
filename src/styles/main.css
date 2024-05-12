@@ -66,10 +66,11 @@
 	============================================================================= */
 	section,
 	footer {
+		@apply text-xl max_m_xl:text-base;
 		h2 {
-			@apply inline-block text-3xl font-extrabold uppercase leading-none text-surface-3 drop-shadow-glow max_m_xl:text-3xl;
+			@apply inline-block text-3xl font-extrabold uppercase leading-none text-surface-3 drop-shadow-glow max_m_xl:text-2xl max_m_xl:leading-6;
 			small {
-				@apply tracking-widest text-surface-4;
+				@apply tracking-widest text-surface-4 max_m_xl:block;
 				font-size: 0.6em;
 			}
 		}

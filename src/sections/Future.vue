@@ -8,7 +8,7 @@ import videoSrc from '@/assets/video/st-nebula-cloud-01.webm'
 <template>
 	<!-- HTML template for the component goes here -->
 	<div
-		class="relative flex min-h-[500px] flex-col items-start justify-center gap-6 bg-gradient-to-b text-lg dark:from-surface-6 dark:to-surface-5 dark:text-surface-2"
+		class="relative flex min-h-[500px] flex-col items-start justify-center gap-6 bg-gradient-to-b dark:from-surface-6 dark:to-surface-5 dark:text-surface-2"
 	>
 		<!-- video bg -->
 		<div class="video-container">
@@ -18,7 +18,7 @@ import videoSrc from '@/assets/video/st-nebula-cloud-01.webm'
 			</video>
 		</div>
 		<div class="section-inner">
-			<div class="flex-1">&nbsp;</div>
+			<div class="flex-1 max_m_xl:hidden">&nbsp;</div>
 			<div class="flex-[2]" data-aos="fade-left">
 				<h2>Future</h2>
 				<p>

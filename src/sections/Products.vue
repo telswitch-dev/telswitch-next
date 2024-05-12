@@ -7,7 +7,7 @@
 <template>
 	<!-- HTML template for the component goes here -->
 	<div
-		class="flex min-h-[500px] flex-col items-start justify-center gap-6 bg-surface-6 bg-gradient-to-b text-lg text-surface-2"
+		class="flex min-h-[500px] flex-col items-start justify-center gap-6 bg-surface-6 bg-gradient-to-b text-surface-2"
 	>
 		<div class="section-inner">
 			<div class="flex-[2]" data-aos="fade-right">
@@ -19,7 +19,7 @@
 					reseller of iConectiv’s WDNC product.
 				</p>
 			</div>
-			<div class="flex-1"></div>
+			<div class="flex-1 max_m_xl:hidden">&nbsp;</div>
 		</div>
 	</div>
 </template>

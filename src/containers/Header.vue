@@ -217,7 +217,7 @@ div.open .hamburger .line3 {
 }
 /* nav in mobile */
 .nav-mobile {
-	@apply absolute left-0 top-[88px] h-screen w-screen flex-col gap-4 bg-gray-200/90 p-6 backdrop-blur-sm;
+	@apply absolute left-0 top-[88px] h-screen w-screen flex-col gap-4 bg-surface-5 p-8 backdrop-blur-3xl;
 }
 
 .active {

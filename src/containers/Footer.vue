@@ -6,7 +6,7 @@
 	<footer
 		class="flex min-h-[900px] w-full flex-col justify-between gap-8 bg-surface-5 bg-gradient-to-br from-surface-4 to-surface-5 p-8 text-surface-2"
 	>
-		<div class="flex items-stretch justify-start gap-8">
+		<div class="flex items-stretch justify-start gap-8 max_m_xl:flex-col">
 			<div class="flex-[2] rounded-2xl border border-surface-4 p-8">
 				<h2>Partners</h2>
 				<div class="mt-2">
@@ -81,12 +81,13 @@
 				<div class="">
 					<h4 class="mt-2 font-bold">TelSwitch, Inc.</h4>
 					<address>
-						Address <br />
-						City, State, Zip<br />
+						1937 Oak Park Blvd <br />
+						Suite D <br />
+						Pleasant Hill, CA, 94523<br />
 					</address>
 					<ul>
-						<li>email@email.com</li>
-						<li>111-222-3333</li>
+						<li>info@telswitch.com</li>
+						<li>(209) 235-5555</li>
 					</ul>
 				</div>
 			</div>

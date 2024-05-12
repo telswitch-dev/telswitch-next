@@ -8,7 +8,7 @@ import videoSrc from '@/assets/video/st-tri-network-00.webm'
 <template>
 	<!-- HTML template for the component goes here -->
 	<div
-		class="relative flex min-h-[500px] flex-col items-start justify-center gap-6 bg-surface-6 text-xl text-surface-2"
+		class="relative flex min-h-[500px] flex-col items-start justify-center gap-6 bg-surface-6 text-surface-2"
 	>
 		<!-- video bg -->
 		<div class="video-container">
@@ -20,13 +20,9 @@ import videoSrc from '@/assets/video/st-tri-network-00.webm'
 
 		<!-- content -->
 		<div class="section-inner">
-			<div class="flex-1">&nbsp;</div>
+			<div class="flex-1 max_m_xl:hidden">&nbsp;</div>
 			<div class="flex-[2]" data-aos="fade-left">
-				<h2
-					class="inline-block text-3xl font-extrabold uppercase leading-none text-surface-3 drop-shadow-glow max_m_xl:text-3xl"
-				>
-					About
-				</h2>
+				<h2>About</h2>
 				<p>
 					<strong>TelSwitch, Inc.</strong> has worked on over a thousand matters involving wage and
 					hour, Telephone Computer Protection Act (“TCPA”) and commercial disputes, and is respected
