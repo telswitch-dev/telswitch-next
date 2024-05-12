@@ -94,13 +94,13 @@
 	============================================================================= */
 	/* #region  */
 	.video-container {
-		@apply absolute left-0 top-0 h-full w-full bg-black max_m_xl:hidden;
+		@apply absolute left-0 top-0 h-full w-full bg-black;
 		&::after {
 			content: '';
 			@apply absolute left-0 top-0 z-10 h-full w-full;
 		}
 		video {
-			@apply absolute left-0 top-0 h-full w-full object-cover max_m_xl:hidden;
+			@apply absolute left-0 top-0 h-full w-full object-cover;
 		}
 	}
 

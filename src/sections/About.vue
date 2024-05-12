@@ -2,7 +2,20 @@
 ============================================================================= -->
 <script setup>
 // JavaScript code for the component goes here
+import { ref, onMounted, onUnmounted } from 'vue'
 import videoSrc from '@/assets/video/st-tri-network-00.webm'
+
+// show/hide video depending on mobile or desktop
+const isMobile = ref(window.innerWidth <= 768)
+const handleResize = () => {
+	isMobile.value = window.innerWidth <= 768
+}
+onMounted(() => {
+	window.addEventListener('resize', handleResize)
+})
+onUnmounted(() => {
+	window.removeEventListener('resize', handleResize)
+})
 </script>
 
 <template>
@@ -11,7 +24,7 @@ import videoSrc from '@/assets/video/st-tri-network-00.webm'
 		class="relative flex min-h-[500px] flex-col items-start justify-center gap-6 bg-surface-6 text-surface-2"
 	>
 		<!-- video bg -->
-		<div class="video-container">
+		<div v-if="!isMobile" class="video-container">
 			<video autoplay loop muted>
 				<source :src="videoSrc" type="video/webm" />
 				Your browser does not support the video tag.
