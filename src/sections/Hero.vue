@@ -35,7 +35,7 @@
 		>
 			<div class="fade-in flex flex-col items-center justify-center text-lg font-light">
 				<span
-					class="mb-1 text-5xl font-bold text-ts-green-mineral-100 drop-shadow-outline max_xl:text-3xl"
+					class="mb-1 text-5xl font-bold text-ts-green-mineral-100 drop-shadow-outline max_xl:text-4xl"
 				>
 					94
 				</span>
@@ -47,7 +47,7 @@
 
 			<div class="fade-in flex flex-col items-center justify-center">
 				<span
-					class="mb-1 text-5xl font-bold text-ts-green-mineral-100 drop-shadow-outline max_xl:text-3xl"
+					class="mb-1 text-5xl font-bold text-ts-green-mineral-100 drop-shadow-outline max_xl:text-4xl"
 				>
 					93
 				</span>
@@ -59,7 +59,7 @@
 
 			<div class="fade-in flex flex-col items-center justify-center">
 				<span
-					class="mb-1 text-5xl font-bold text-ts-green-mineral-100 drop-shadow-outline max_xl:text-3xl"
+					class="mb-1 text-5xl font-bold text-ts-green-mineral-100 drop-shadow-outline max_xl:text-4xl"
 				>
 					81
 				</span>
@@ -71,7 +71,7 @@
 
 			<div class="fade-in flex flex-col items-center justify-center">
 				<span
-					class="mb-1 text-5xl font-bold text-ts-green-mineral-100 drop-shadow-outline max_xl:text-3xl max_lg:text-3xl"
+					class="mb-1 text-5xl font-bold text-ts-green-mineral-100 drop-shadow-outline max_xl:text-4xl"
 					title="Aproximation of DNC Records Aggregated in 2023"
 				>
 					90,576,778,862<sup
