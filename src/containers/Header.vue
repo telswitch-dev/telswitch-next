@@ -17,7 +17,7 @@
 				<!-- This div becomes visible when the viewport is mobile size and the mobile navigation is active -->
 				<div
 					:class="{ open: mobileNav }"
-					class="hidden max_md:block"
+					class="hidden max_lg:block"
 					v-if="isMobile"
 					@click="mobileNav = !mobileNav"
 				>
@@ -124,8 +124,8 @@ export default {
 	},
 	methods: {
 		handleResize() {
-			// Set `isMobile` to true if the window width is less than or equal to 768 pixels
-			this.isMobile = window.innerWidth <= 768
+			// Set `isMobile` to true if the window width is less than or equal to 1024 pixels
+			this.isMobile = window.innerWidth <= 1024
 			// If the viewport is not mobile, ensure the navigation menu is hidden
 			if (!this.isMobile) {
 				this.mobileNav = false
@@ -213,7 +213,7 @@ div.open .hamburger .line3 {
 }
 
 .nav-desktop {
-	@apply flex-row gap-6 max_md:hidden;
+	@apply flex-row gap-6 max_lg:hidden;
 }
 /* nav in mobile */
 .nav-mobile {
@@ -228,21 +228,21 @@ div.open .hamburger .line3 {
 	@apply text-orange-900;
 } */
 .active-about {
-	@apply text-blue-500;
+	@apply text-ts-orange-coral-400;
 }
 .active-data-analytics {
-	@apply text-blue-500;
+	@apply text-ts-orange-coral-400;
 }
 .active-history {
-	@apply text-blue-500;
+	@apply text-ts-orange-coral-400;
 }
 .active-expertise {
-	@apply text-blue-500;
+	@apply text-ts-orange-coral-400;
 }
 .active-future {
-	@apply text-blue-500;
+	@apply text-ts-orange-coral-400;
 }
 .active-products {
-	@apply text-blue-500;
+	@apply text-ts-orange-coral-400;
 }
 </style>

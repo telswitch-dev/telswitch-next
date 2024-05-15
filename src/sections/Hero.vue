@@ -12,7 +12,7 @@
 		<div class="section-inner">
 			<div class="flex-[2] self-center">
 				<h2
-					class="relative inline-block bg-gradient-to-r from-ts-orange-coral-400 to-blue-500 bg-clip-text text-5xl font-extrabold uppercase leading-none text-surface-1 text-transparent drop-shadow-outline max_md:text-3xl"
+					class="relative inline-block bg-gradient-to-r from-ts-orange-coral-400 to-blue-500 bg-clip-text text-5xl font-extrabold uppercase leading-none text-surface-1 text-transparent drop-shadow-outline max_lg:mt-4 max_md:text-3xl"
 				>
 					Bringing Insights Into Life’s Digital Fingerprints
 				</h2>
