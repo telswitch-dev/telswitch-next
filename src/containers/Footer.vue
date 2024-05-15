@@ -81,9 +81,8 @@
 				<div class="">
 					<h4 class="mt-2 font-bold">TelSwitch, Inc.</h4>
 					<address>
-						1937 Oak Park Blvd <br />
-						Suite D <br />
-						Pleasant Hill, CA, 94523<br />
+						1937 Oak Park Boulevard, Suite D <br />
+						Pleasant Hill, CA 94523<br />
 					</address>
 					<ul>
 						<li>info@telswitch.com</li>

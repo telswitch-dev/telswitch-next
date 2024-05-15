@@ -12,7 +12,7 @@
 		<div class="section-inner">
 			<div class="flex-[2] self-center">
 				<h2
-					class="relative inline-block bg-gradient-to-r from-ts-orange-coral-400 to-ts-green-mineral-600 bg-clip-text text-5xl font-extrabold uppercase leading-none text-surface-1 text-transparent drop-shadow-outline max_md:text-3xl"
+					class="relative inline-block bg-gradient-to-r from-ts-orange-coral-400 to-blue-500 bg-clip-text text-5xl font-extrabold uppercase leading-none text-surface-1 text-transparent drop-shadow-outline max_md:text-3xl"
 				>
 					Bringing Insights Into Life’s Digital Fingerprints
 				</h2>
@@ -39,7 +39,10 @@
 				>
 					94
 				</span>
-				<span>Cases in 2022</span>
+				<p class="text-center text-base leading-5 drop-shadow-sm">
+					<span>Cases Initiated</span> <br />
+					<span class="text-lg font-bold">2022</span>
+				</p>
 			</div>
 
 			<div class="fade-in flex flex-col items-center justify-center">
@@ -48,7 +51,10 @@
 				>
 					93
 				</span>
-				<span>Cases in 2023</span>
+				<p class="text-center text-base leading-5 drop-shadow-sm">
+					<span>Cases Initiated</span> <br />
+					<span class="text-lg font-bold">2023</span>
+				</p>
 			</div>
 
 			<div class="fade-in flex flex-col items-center justify-center">
@@ -57,24 +63,27 @@
 				>
 					81
 				</span>
-				<span>National DNC Audits</span>
+				<p class="text-center text-base leading-5 drop-shadow-sm">
+					<span>National DNC</span> <br />
+					<span>Audits</span>
+				</p>
 			</div>
 
-			<div class="fade-in flex flex-col items-center justify-center self-center">
+			<div class="fade-in flex flex-col items-center justify-center">
 				<span
-					class="mb-1 text-4xl font-bold text-ts-green-mineral-100 drop-shadow-outline max_lg:text-2xl max_md:text-3xl"
+					class="mb-1 text-5xl font-bold text-ts-green-mineral-100 drop-shadow-outline max_lg:text-3xl max_md:text-3xl"
 					title="Aproximation of DNC Records Aggregated in 2023"
 				>
 					90,576,778,862<sup
-						class="inline-block -translate-y-3 text-xs text-ts-green-mineral-400 max_lg:-translate-y-1"
+						class="inline-block -translate-y-5 text-xs text-ts-green-mineral-400 max_lg:-translate-y-1"
 					>
 						*
 					</sup>
 				</span>
-				<span
-					>DNC Records Aggregated
-					<small class="max_md:block max_md:text-center">(Yearly)</small></span
-				>
+				<p class="text-center text-base leading-5 drop-shadow-sm">
+					<span>DNC Records Aggregated</span> <br />
+					<span class="">Yearly</span>
+				</p>
 			</div>
 		</div>
 	</div>
