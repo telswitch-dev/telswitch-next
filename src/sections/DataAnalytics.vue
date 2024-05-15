@@ -18,7 +18,7 @@
 					technologies, such as GRAID’s GPU-based data acceleration, in order to expedite the
 					consumption of large datasets and then conduct analysis on that data to draw out insights
 					from the data that might not otherwise be possible. TelSwitch, Inc. is honored to have
-					been entrusted by dozens of law firms on behalf of both defendants and clients who have
+					been entrusted by dozens of law firms on behalf of both defendants and plantiffs who have
 					successfully navigated over a thousand matters in which we have been retained as experts.
 				</p>
 			</div>

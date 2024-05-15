@@ -133,11 +133,11 @@ export default {
 			dropShadow: {
 				'3xl': '0 35px 35px rgba(0, 0, 0, 0.25)',
 				outline: [
-					'1px 1px 0 rgba(0, 0, 0, 0.45)',
-					'1.5px 1.5px 0 rgba(0, 0, 0, 0.40)',
-					'2px 2px 0 rgba(0, 0, 0, 0.35)',
-					'2.5px 2.5px 0 rgba(0, 0, 0, 0.30)',
-					'3px 3px 0 rgba(0, 0, 0, 0.25)',
+					'1px 1px 0 rgba(0, 0, 0, 0.35)',
+					'1.5px 1.5px 0 rgba(0, 0, 0, 0.30)',
+					'2px 2px 0 rgba(0, 0, 0, 0.25)',
+					'2.5px 2.5px 0 rgba(0, 0, 0, 0.20)',
+					'3px 3px 0 rgba(0, 0, 0, 0.15)',
 				],
 				glow: ['0 0 1.25rem rgba(255, 255, 255, 0.22)'],
 			},

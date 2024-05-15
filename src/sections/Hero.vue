@@ -31,59 +31,59 @@
 			</div>
 		</div>
 		<div
-			class="fade-in fast mx-auto mt-16 flex items-start justify-center gap-8 rounded-full bg-gradient-to-b from-ts-green-mineral-600 to-ts-green-mineral-800 p-8 px-24 text-ts-green-mineral-200 drop-shadow-outline max_lg:p-4 max_lg:px-24 max_lg:text-base max_md:w-full max_md:flex-col max_md:items-center max_md:rounded-none"
+			class="fade-in fast mx-auto mt-16 flex items-start justify-center gap-10 rounded-[3rem] bg-gradient-to-b from-ts-green-mineral-600 to-ts-green-mineral-800 p-8 px-24 text-lg text-ts-green-mineral-200 drop-shadow-outline max_xl:p-4 max_xl:px-24 max_xl:text-base max_lg:w-full max_lg:flex-col max_lg:items-center max_lg:rounded-none"
 		>
 			<div class="fade-in flex flex-col items-center justify-center text-lg font-light">
 				<span
-					class="mb-1 text-5xl font-bold text-ts-green-mineral-100 drop-shadow-outline max_lg:text-3xl"
+					class="mb-1 text-5xl font-bold text-ts-green-mineral-100 drop-shadow-outline max_xl:text-3xl"
 				>
 					94
 				</span>
-				<p class="text-center text-base leading-5 drop-shadow-sm">
+				<div class="mt-1 text-center leading-6 text-ts-green-mineral-300 drop-shadow-sm">
 					<span>Cases Initiated</span> <br />
-					<span class="text-lg font-bold">2022</span>
-				</p>
+					<strong>2022</strong>
+				</div>
 			</div>
 
 			<div class="fade-in flex flex-col items-center justify-center">
 				<span
-					class="mb-1 text-5xl font-bold text-ts-green-mineral-100 drop-shadow-outline max_lg:text-3xl"
+					class="mb-1 text-5xl font-bold text-ts-green-mineral-100 drop-shadow-outline max_xl:text-3xl"
 				>
 					93
 				</span>
-				<p class="text-center text-base leading-5 drop-shadow-sm">
+				<div class="mt-1 text-center leading-6 text-ts-green-mineral-300 drop-shadow-sm">
 					<span>Cases Initiated</span> <br />
-					<span class="text-lg font-bold">2023</span>
-				</p>
+					<span>2023</span>
+				</div>
 			</div>
 
 			<div class="fade-in flex flex-col items-center justify-center">
 				<span
-					class="mb-1 text-5xl font-bold text-ts-green-mineral-100 drop-shadow-outline max_lg:text-3xl"
+					class="mb-1 text-5xl font-bold text-ts-green-mineral-100 drop-shadow-outline max_xl:text-3xl"
 				>
 					81
 				</span>
-				<p class="text-center text-base leading-5 drop-shadow-sm">
+				<div class="mt-1 text-center leading-6 text-ts-green-mineral-300 drop-shadow-sm">
 					<span>National DNC</span> <br />
 					<span>Audits</span>
-				</p>
+				</div>
 			</div>
 
 			<div class="fade-in flex flex-col items-center justify-center">
 				<span
-					class="mb-1 text-5xl font-bold text-ts-green-mineral-100 drop-shadow-outline max_lg:text-3xl max_md:text-3xl"
+					class="mb-1 text-5xl font-bold text-ts-green-mineral-100 drop-shadow-outline max_xl:text-3xl max_lg:text-3xl"
 					title="Aproximation of DNC Records Aggregated in 2023"
 				>
 					90,576,778,862<sup
-						class="inline-block -translate-y-5 text-xs text-ts-green-mineral-400 max_lg:-translate-y-1"
+						class="inline-block -translate-y-5 text-xs text-ts-green-mineral-400 max_xl:-translate-y-2"
 					>
 						*
 					</sup>
 				</span>
-				<p class="text-center text-base leading-5 drop-shadow-sm">
-					<span>DNC Records Aggregated</span> <br />
-					<span class="">Yearly</span>
-				</p>
+				<div class="mt-1 text-center leading-6 text-ts-green-mineral-300 drop-shadow-sm">
+					<span>DNC Records</span><br />
+					<span class="">Aggregated Annually</span>
+				</div>
 			</div>
 		</div>
 	</div>
