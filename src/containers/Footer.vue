@@ -7,13 +7,14 @@
 		class="flex min-h-[900px] w-full flex-col justify-between gap-8 bg-surface-5 bg-gradient-to-br from-surface-4 to-surface-5 p-8 text-surface-2"
 	>
 		<div class="flex items-stretch justify-start gap-8 max_m_xl:flex-col">
-			<div class="flex-[2] rounded-2xl border border-surface-4 p-8">
+			<!-- partners -->
+			<div class="flex-[2] rounded-2xl border border-surface-4 bg-surface-4 p-8 drop-shadow-lg">
 				<h2>Partners</h2>
-				<div class="mt-2">
+				<!-- <div class="mt-2">
 					<div>
 						<Popper arrow placement="right" hover>
 							<div class="min-w-[160px]">
-								<a href="https://www.graidtech.com/" target="_blank"> GraidTech </a>
+								<a href="https://www.graidtech.com/" target="_blank"> Graid Technology Inc. </a>
 								&
 								<a href="https://www.nvidia.com/" target="_blank">NVIDIA</a>
 							</div>
@@ -73,10 +74,26 @@
 							</template>
 						</Popper>
 					</div>
+				</div> -->
+
+				<div class="mt-2 flex items-start justify-start gap-4">
+					<svg class="inline-block h-[28px] w-[190px]">
+						<use href="@/assets/graid-logo.svg#logo" />
+					</svg>
+					<svg class="inline-block h-[26px] w-[180px]">
+						<use href="@/assets/nvidia-logo.svg#logo" />
+					</svg>
+					<svg class="inline-block h-[24px] w-[165px]">
+						<use href="@/assets/ic-logo.svg#logo" />
+					</svg>
+					<svg class="inline-block h-[28px] w-[120px]">
+						<use href="@/assets/fbank-logo-fullcolor-rev.svg#logo" />
+					</svg>
 				</div>
 			</div>
 
-			<div class="flex-1 rounded-2xl border border-surface-4 p-8">
+			<!-- contact -->
+			<div class="flex-1 rounded-2xl border border-surface-4 bg-surface-4 p-8 drop-shadow-lg">
 				<h2>Contact</h2>
 				<div class="">
 					<h4 class="mt-2 font-bold">TelSwitch, Inc.</h4>
