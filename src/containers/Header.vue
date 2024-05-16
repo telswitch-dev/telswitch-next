@@ -7,7 +7,7 @@
 		<div class="flex items-center justify-between gap-4 p-6 pl-10">
 			<div class="logo overflow-clip">
 				<a href="/">
-					<svg class="h-[40px]">
+					<svg class="h-[40px] max_m_xl:w-[220px]">
 						<use href="@/assets/telswitch-logotype-white.svg#logo" />
 					</svg>
 				</a>

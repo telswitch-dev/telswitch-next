@@ -76,14 +76,14 @@
 					</div>
 				</div> -->
 
-				<div class="mt-2 flex items-start justify-start gap-4">
+				<div class="mt-2 flex items-start justify-start gap-4 max_lg:flex-col">
 					<svg class="inline-block h-[28px] w-[190px]">
 						<use href="@/assets/graid-logo.svg#logo" />
 					</svg>
-					<svg class="inline-block h-[26px] w-[180px]">
+					<svg class="inline-block h-[26px] w-[140px]">
 						<use href="@/assets/nvidia-logo.svg#logo" />
 					</svg>
-					<svg class="inline-block h-[24px] w-[165px]">
+					<svg class="inline-block h-[24px] w-[130px]">
 						<use href="@/assets/ic-logo.svg#logo" />
 					</svg>
 					<svg class="inline-block h-[28px] w-[120px]">
