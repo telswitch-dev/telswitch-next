@@ -17,8 +17,9 @@
 					Bringing Insights Into Life’s Digital Fingerprints
 				</h2>
 				<p class="text-2xl leading-normal max_md:text-lg">
-					<strong>TelSwitch, Inc.</strong> specializes in validating data used in litigation, and
-					providing expert testimony in court.
+					<strong>TelSwitch, Inc.</strong> specializes in efficiently and reliably structuring and
+					analyzing large sets of data that are used in the litigation process, and providing expert
+					testimony.
 				</p>
 				<!-- <button class="rt-btn mt-6 text-xl">
 					<span>Read More…</span>
