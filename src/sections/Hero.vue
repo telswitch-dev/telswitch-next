@@ -31,50 +31,37 @@
 				</svg>
 			</div>
 		</div>
-		<div
-			class="fade-in fast mx-auto mt-16 flex items-start justify-center gap-10 rounded-[3rem] bg-gradient-to-b from-ts-green-mineral-600 to-ts-green-mineral-800 p-8 px-24 text-lg text-ts-green-mineral-200 drop-shadow-outline max_xl:p-4 max_xl:px-24 max_xl:text-base max_lg:w-full max_lg:flex-col max_lg:items-center max_lg:rounded-none"
-		>
-			<div class="fade-in flex flex-col items-center justify-center text-lg font-light">
-				<span
-					class="mb-1 text-5xl font-bold text-ts-green-mineral-100 drop-shadow-outline max_xl:text-4xl"
-				>
-					94
-				</span>
-				<div class="mt-1 text-center leading-6 text-ts-green-mineral-300 drop-shadow-sm">
+
+		<!--	stat-bar
+		============================================================================= -->
+		<div class="stat-bar fade-in fast">
+			<!-- item -->
+			<div class="stat-bar-item fade-in">
+				<span class="stat-bar-item-value"> 94 </span>
+				<div class="stat-bar-item-label">
 					<span>Cases Initiated</span> <br />
 					<strong>2022</strong>
 				</div>
 			</div>
 
-			<div class="fade-in flex flex-col items-center justify-center">
-				<span
-					class="mb-1 text-5xl font-bold text-ts-green-mineral-100 drop-shadow-outline max_xl:text-4xl"
-				>
-					93
-				</span>
-				<div class="mt-1 text-center leading-6 text-ts-green-mineral-300 drop-shadow-sm">
+			<div class="stat-bar-item fade-in">
+				<span class="stat-bar-item-value"> 93 </span>
+				<div class="stat-bar-item-label">
 					<span>Cases Initiated</span> <br />
-					<span>2023</span>
+					<strong>2023</strong>
 				</div>
 			</div>
 
-			<div class="fade-in flex flex-col items-center justify-center">
-				<span
-					class="mb-1 text-5xl font-bold text-ts-green-mineral-100 drop-shadow-outline max_xl:text-4xl"
-				>
-					81
-				</span>
-				<div class="mt-1 text-center leading-6 text-ts-green-mineral-300 drop-shadow-sm">
+			<div class="stat-bar-item fade-in">
+				<span class="stat-bar-item-value"> 81 </span>
+				<div class="stat-bar-item-label">
 					<span>National DNC</span> <br />
 					<span>Audits</span>
 				</div>
 			</div>
 
-			<div class="fade-in flex flex-col items-center justify-center">
-				<span
-					class="mb-1 text-5xl font-bold text-ts-green-mineral-100 drop-shadow-outline max_xl:text-4xl"
-					title="Aproximation of DNC Records Aggregated in 2023"
-				>
+			<div class="stat-bar-item fade-in">
+				<span class="stat-bar-item-value" title="Aproximation of DNC Records Aggregated in 2023">
 					90,576,778,862
 					<!-- <sup
 						class="inline-block -translate-y-5 text-xs text-ts-green-mineral-400 max_xl:-translate-y-2"
@@ -82,7 +69,7 @@
 						*
 					</sup> -->
 				</span>
-				<div class="mt-1 text-center leading-6 text-ts-green-mineral-300 drop-shadow-sm">
+				<div class="stat-bar-item-label">
 					<span>DNC Records</span><br />
 					<span class="">Consumed in 2023</span>
 				</div>
@@ -93,6 +80,22 @@
 
 <style scoped>
 /* CSS styles for the component go here */
+
+/*	stat-bar
+============================================================================= */
+.stat-bar {
+	@apply mx-auto mt-16 flex items-start justify-center gap-10 rounded-[3rem] bg-gradient-to-b from-ts-green-mineral-600 to-ts-green-mineral-800 p-8 px-24 text-lg text-ts-green-mineral-200 drop-shadow-outline max_xl:p-4 max_xl:px-24 max_xl:text-base max_lg:w-full max_lg:flex-col max_lg:items-center max_lg:rounded-none;
+	.stat-bar-item {
+		@apply flex flex-col items-center justify-center;
+		.stat-bar-item-value {
+			@apply mb-1 text-5xl font-bold text-ts-green-mineral-100 drop-shadow-outline max_xl:text-4xl;
+		}
+		.stat-bar-item-label {
+			@apply mt-1 text-center leading-6 text-ts-green-mineral-300 drop-shadow-sm;
+		}
+	}
+}
+
 @keyframes fadeIn {
 	0% {
 		opacity: 0;
