@@ -75,15 +75,16 @@
 					class="mb-1 text-5xl font-bold text-ts-green-mineral-100 drop-shadow-outline max_xl:text-4xl"
 					title="Aproximation of DNC Records Aggregated in 2023"
 				>
-					90,576,778,862<sup
+					90,576,778,862
+					<!-- <sup
 						class="inline-block -translate-y-5 text-xs text-ts-green-mineral-400 max_xl:-translate-y-2"
 					>
 						*
-					</sup>
+					</sup> -->
 				</span>
 				<div class="mt-1 text-center leading-6 text-ts-green-mineral-300 drop-shadow-sm">
 					<span>DNC Records</span><br />
-					<span class="">Aggregated Annually</span>
+					<span class="">Consumed in 2023</span>
 				</div>
 			</div>
 		</div>
