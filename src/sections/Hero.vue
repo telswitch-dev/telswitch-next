@@ -39,7 +39,7 @@
 			<div class="stat-bar-item fade-in">
 				<span class="stat-bar-item-value"> 94 </span>
 				<div class="stat-bar-item-label">
-					<span>Cases Initiated</span> <br />
+					<span>Projects Initiated</span> <br />
 					<strong>2022</strong>
 				</div>
 			</div>
@@ -47,7 +47,7 @@
 			<div class="stat-bar-item fade-in">
 				<span class="stat-bar-item-value"> 93 </span>
 				<div class="stat-bar-item-label">
-					<span>Cases Initiated</span> <br />
+					<span>Projects Initiated</span> <br />
 					<strong>2023</strong>
 				</div>
 			</div>
