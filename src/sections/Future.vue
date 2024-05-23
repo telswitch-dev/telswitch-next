@@ -36,9 +36,9 @@ onUnmounted(() => {
 				<h2>Future</h2>
 				<p>
 					In 2024, TelSwitch, Inc. began incorporating NVIDIA’s GPU-driven data acceleration into
-					our in-house SQL data warehouses using a product called GRAID to achieve a drastic
-					increase in the efficiency of our back office data processing capabilities. We have
-					achieved a measurable increase in the expediency of data processing and in increasing the
+					our in-house SQL data warehouses using a product called GRAID. This move achieved a
+					drastic increase in the efficiency of our back office data processing capabilities. We
+					have created a measurable increase in the expediency of data processing and increasing the
 					timeliness in delivering results to customers.
 				</p>
 			</div>

@@ -37,18 +37,18 @@ onUnmounted(() => {
 			<div class="flex-[2]" data-aos="fade-left">
 				<h2>History <small>Background of TelSwitch, Inc.</small></h2>
 				<p>
-					Our story began in 1991 when TelSwitch, Inc.’s founder presented a mock-business to his
-					high school economics class based upon the premise of how designing a more efficient
-					digital phone switch could lead to more cost effective transmission of phone calls. After
-					graduating, that business became a reality, and in 1994, TelSwitch, Inc. was incorporated
-					in California.
+					Our story begins in 1991 when TelSwitch, Inc.’s founder
+					<strong>Aaron Woolfson</strong> presented a mock-business to his high school economics
+					class. Based on the premise that designing a more efficient digital phone switch could
+					lead to more cost effective transmission of phone calls. After graduating the business
+					became a reality, and in 1994, TelSwitch, Inc. was incorporated in California.
 				</p>
 				<p>
-					Although TelSwitch, Inc. started off as a telephone service provider, we quickly became
-					recognized as a leader in the development of hardware and software for use with
-					transmitting phone calls and then then collecting and rating those telephone calls. After
-					divesting our retail assets, TelSwitch, Inc. focused our commitments on bring solutions to
-					other telephone companies, to whom we licensed our unique hardware and software.
+					Although TelSwitch, Inc. started off as a telephone service provider, we quickly became a
+					leader in the development of hardware and software for transmitting phone calls and then
+					collecting and rating those telephone calls. After divesting our retail assets, TelSwitch,
+					Inc. focused our commitments on bringing solutions to other telephone companies whom we
+					licensed our unique hardware and software.
 				</p>
 			</div>
 		</div>

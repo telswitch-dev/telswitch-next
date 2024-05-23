@@ -37,15 +37,16 @@ onUnmounted(() => {
 			<div class="flex-[2]" data-aos="fade-left">
 				<h2>About</h2>
 				<p>
-					<strong>TelSwitch, Inc.</strong> has worked on over a thousand matters involving wage and
-					hour, Telephone Computer Protection Act (“TCPA”) and commercial disputes, and is respected
-					for its’ objectivity and rich insights into litigants’ data.
+					Having worked on over a thousand litigation matters involving wage and hour disputes, the
+					Telephone Computer Protection Act (“TCPA”) and various commercial disputes,
+					<strong>TelSwitch, Inc.</strong> is highly respected for our objectivity and rich insights
+					into litigants’ data.
 				</p>
 				<p>
 					Our motto, “Bringing insight into life’s digital fingerprints”, is the result of weaving
-					together millions of distinct data points into fact patterns that law firms can rely upon
-					at various stages of litigation, which can be used to objectively describe events that
-					occurred without confirmation bias.
+					together millions of distinct data points into fact patterns law firms can rely upon at
+					various stages of litigation. These datapoints are used to objectively describe digital
+					based events without prejudice or confirmation bias.
 				</p>
 			</div>
 		</div>

@@ -13,14 +13,15 @@
 			<div class="flex-[2]" data-aos="fade-right">
 				<h2>Expertise</h2>
 				<p>
-					As described by our tagline, “Bringing insight into life’s digital fingerprints”, we are
-					experts in weaving data points into a thread of consistency and continuity that can be
-					measured to achieve objectivity in litigation. We believe that by building a narrative
-					around data, we can remove the emotions from evidence that is used in developing fact
-					patterns related to class-action lawsuits to allow data to be used in a more persuasive
-					manner. During the construction of these narratives, we use a combination of python,
-					visual studio and ABBYY in the conversion of the data into database form, and Structured
-					Query Language, or SQL, to analyze it.
+					True to our tagline <em>“Bringing insight into life’s digital fingerprints”</em>, we are
+					experts in weaving multiple data points into a thread of consistency and continuity. The
+					results are then accurately measured to achieve maximum objectivity in litigation.
+					TelSwitch, Inc. believes that building a narrative around data can remove the emotions and
+					bias from evidence in developing fact patterns related to class-action lawsuits. This
+					allows data to be used in a more persuasive manner. During the construction of these
+					narratives, we use a combination of <strong>Python</strong>,
+					<strong>Visual Studio</strong> and <strong>ABBYY</strong> in the conversion of the data
+					into database form as well as Structured Query Language, or SQL, for accurate analysis.
 				</p>
 			</div>
 			<div class="flex-1 max_md:hidden">&nbsp;</div>
