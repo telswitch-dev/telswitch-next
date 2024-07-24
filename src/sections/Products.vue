@@ -16,7 +16,7 @@
 					TelSwitch, Inc. primarily focuses on data analysis related to class action litigation.
 					TelSwitch, Inc. maintains a Subscriber Account Number (“SAN”) and maintains a daily
 					download of the Federal Trade Commission (“FTC”) Do-Not-Call (“DNC”) lists. We also
-					maintain specialized databases to assist companiers in avoiding activities that may cause
+					maintain specialized databases to assist companies in avoiding activities that may cause
 					violations of the Telephone Consumer Protection Act (“TCPA”).
 				</p>
 			</div>
