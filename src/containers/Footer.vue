@@ -10,74 +10,8 @@
 			<!-- partners -->
 			<div class="flex-[2] rounded-2xl border border-surface-4 bg-surface-4 p-8 drop-shadow-lg">
 				<h2>Partners</h2>
-				<!-- <div class="mt-2">
-					<div>
-						<Popper arrow placement="right" hover>
-							<div class="min-w-[160px]">
-								<a href="https://www.graidtech.com/" target="_blank"> Graid Technology Inc. </a>
-								&
-								<a href="https://www.nvidia.com/" target="_blank">NVIDIA</a>
-							</div>
-
-							<template #content>
-								<div class="w-[500px]">
-									<p class="mt-0">
-										<strong>TelSwitch, Inc</strong> integrates <strong>NVIDIA</strong> GPU's (via
-										<strong>GRAID</strong>) into the fabric of our data workflow in order to achieve
-										dramatically improved data processing capability. By employing NVIDIA GPU's into
-										our strategy, we have been able to maximize our daily handling of hundreds of
-										millions of rows of data. We continue to migrate our operations toward 100%
-										GRAID and NVIDIA framework.
-									</p>
-								</div>
-							</template>
-						</Popper>
-					</div>
-
-					<div>
-						<Popper arrow placement="right" hover>
-							<div class="min-w-[160px]">
-								<a href="https://iconectiv.com/" target="_blank">iConectiv</a>
-							</div>
-							<template #content>
-								<div class="w-[500px]">
-									<p class="mt-0">
-										<strong>TelSwitch, Inc.</strong> is a reseller of the
-										<strong>iConectiv</strong> family of products that can be used to reliably
-										identify whether a telephone number is ported, and if ported, whether the number
-										was wireless or wireline for before or after the port, and for how long it
-										maintained that designation.
-									</p>
-									<p>
-										Non-dialing customers of TelSwitch, Inc. also enjoy the enhanced benefit of
-										no-charge isDNC tagging for audit purposes, to identify whether numbers have
-										been on the national Do-Not-Call list more than thirty (30) days.
-									</p>
-								</div>
-							</template>
-						</Popper>
-					</div>
-
-					<div>
-						<Popper arrow placement="right" hover>
-							<div class="min-w-[160px]">
-								<a href="https://www.fremontbank.com/" target="_blank">Fremont Bank</a>
-							</div>
-							<template #content>
-								<div class="w-[500px]">
-									<p class="mt-0">
-										<strong>TelSwitch, Inc.</strong> utilizes the financial management strategies of
-										Fremont Bank to balance periods of short term growth with continued long term
-										business stability.
-									</p>
-								</div>
-							</template>
-						</Popper>
-					</div>
-				</div> -->
 
 				<div class="mt-2 flex flex-col items-start justify-start gap-4">
-					<!-- <div class="mt-2 flex w-full items-center justify-center gap-4"> -->
 					<a href="https://www.graidtech.com/" target="_blank">
 						<svg class="inline-block h-[30px] w-[190px]">
 							<svg
@@ -207,7 +141,7 @@
 							</svg>
 						</svg>
 					</a>
-					<a href="https://iconectiv.com/" target="_blank">
+					<!-- <a href="https://iconectiv.com/" target="_blank">
 						<svg class="inline-block h-[24px] w-[125px]">
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
@@ -232,7 +166,7 @@
 								/>
 							</svg>
 						</svg>
-					</a>
+					</a> -->
 					<a href="https://www.fremontbank.com/" target="_blank">
 						<svg class="inline-block h-[28px] w-[120px]">
 							<svg

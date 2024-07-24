@@ -135,7 +135,7 @@
 					</svg>
 				</svg>
 			</a>
-			<a href="https://iconectiv.com/" target="_blank">
+			<!-- <a href="https://iconectiv.com/" target="_blank">
 				<svg class="inline-block h-[14px] w-[165px]">
 					<svg xmlns="http://www.w3.org/2000/svg" x="0" y="0" version="1.1" viewBox="0 0 483 89.2">
 						<path fill="#FFF" d="M18.8 87.5 2.5 87.5 2.5 67.9 2.5 33.1 18.8 33.1z" />
@@ -154,7 +154,7 @@
 						/>
 					</svg>
 				</svg>
-			</a>
+			</a> -->
 			<a href="https://www.fremontbank.com/" target="_blank">
 				<svg class="inline-block h-[18px] w-[120px]">
 					<svg
