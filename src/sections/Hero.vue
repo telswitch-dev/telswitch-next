@@ -37,14 +37,6 @@
 		<div class="stat-bar fade-in fast">
 			<!-- item -->
 			<div class="stat-bar-item fade-in">
-				<span class="stat-bar-item-value"> 94 </span>
-				<div class="stat-bar-item-label">
-					<span>Projects Initiated</span> <br />
-					<strong>2022</strong>
-				</div>
-			</div>
-
-			<div class="stat-bar-item fade-in">
 				<span class="stat-bar-item-value"> 93 </span>
 				<div class="stat-bar-item-label">
 					<span>Projects Initiated</span> <br />
@@ -53,7 +45,15 @@
 			</div>
 
 			<div class="stat-bar-item fade-in">
-				<span class="stat-bar-item-value"> 81 </span>
+				<span class="stat-bar-item-value"> 113 </span>
+				<div class="stat-bar-item-label">
+					<span>Projects Initiated</span> <br />
+					<strong>2024</strong>
+				</div>
+			</div>
+
+			<div class="stat-bar-item fade-in">
+				<span class="stat-bar-item-value"> 121 </span>
 				<div class="stat-bar-item-label">
 					<span>National DNC</span> <br />
 					<span>Audits</span>
@@ -62,7 +62,7 @@
 
 			<div class="stat-bar-item fade-in">
 				<span class="stat-bar-item-value" title="Aproximation of DNC Records Aggregated in 2023">
-					90,576,778,862
+					91,881,927,289
 					<!-- <sup
 						class="inline-block -translate-y-5 text-xs text-ts-green-mineral-400 max_xl:-translate-y-2"
 					>
@@ -71,7 +71,7 @@
 				</span>
 				<div class="stat-bar-item-label">
 					<span>DNC Records</span><br />
-					<span class="">Consumed in 2023</span>
+					<span class="">Consumed in 2024</span>
 				</div>
 			</div>
 		</div>

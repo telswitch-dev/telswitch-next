@@ -5,7 +5,13 @@
 <template>
 	<div class="footer-strip">
 		<div class="mt-2 flex w-full items-center justify-center gap-4">
-			<span class="text-base font-bold uppercase text-surface-3/25">Partners</span>
+			<!-- <span class="text-base font-bold uppercase text-surface-3/25">Partners</span> -->
+			<span>
+				<!-- <script
+					async
+					src="https://numberportability.com/sites/default/files/badges/1696/script.js"
+				></script> -->
+			</span>
 			<a href="https://www.graidtech.com/" target="_blank">
 				<svg class="inline-block h-[20px] w-[190px]">
 					<svg
