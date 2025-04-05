@@ -4,11 +4,16 @@
 
 <template>
 	<footer
-		class="flex min-h-[900px] w-full flex-col justify-between gap-8 bg-surface-5 bg-gradient-to-br from-surface-4 to-surface-5 p-8 text-surface-2"
+		class="h-[500px] w-full bg-surface-5 bg-gradient-to-br from-surface-4 to-surface-5 text-surface-2 max_m_xl:h-[1000px]"
 	>
-		<div class="flex items-stretch justify-start gap-8 max_m_xl:flex-col">
+		<!-- <footer
+		class="flex min-h-[900px] w-full flex-col justify-start gap-8 bg-surface-5 bg-gradient-to-br from-surface-4 to-surface-5 p-8 text-surface-2"
+	> -->
+		<div class="flex items-stretch justify-start gap-8 p-8 max_m_xl:flex-col">
 			<!-- partners -->
-			<div class="flex-[2] rounded-2xl border border-surface-4 bg-surface-4 p-8 drop-shadow-lg">
+			<div
+				class="flex-[2] rounded-2xl border border-surface-4 bg-surface-4 p-8 drop-shadow-lg max_lg:flex-1"
+			>
 				<h2>Partners</h2>
 
 				<div class="mt-2 flex flex-col items-start justify-start gap-4">
@@ -202,7 +207,6 @@
 					</a>
 				</div>
 			</div>
-
 			<!-- contact -->
 			<div
 				class="flex-1 rounded-2xl border border-surface-4 bg-surface-4 p-8 text-lg drop-shadow-lg"
@@ -219,13 +223,13 @@
 						<li>(209) 235-5555</li>
 					</ul>
 				</div>
+				<div class="mt-6 text-sm tracking-wide text-surface-3">
+					<p>
+						Built and designed in California by
+						<a class="text-surface-2/60" href="//reyman.name" target="_blank">Ross A. Reyman</a>.
+					</p>
+				</div>
 			</div>
-		</div>
-		<div>
-			<p class="text-right text-xs text-surface-3/50">
-				Site Design by
-				<a href="https://reyman.name" target="_blank">Ross A. Reyman</a>
-			</p>
 		</div>
 	</footer>
 </template>

@@ -4,13 +4,13 @@
 
 <template>
 	<div class="footer-strip">
-		<div class="mt-2 flex w-full items-center justify-center gap-4">
+		<div class="mt-2 flex w-full items-center justify-center gap-8 max_m_xl:flex-col">
 			<!-- <span class="text-base font-bold uppercase text-surface-3/25">Partners</span> -->
 
 			<!-- graid -->
 			<a href="https://www.graidtech.com/" target="_blank">
 				<!-- <svg class="inline-block h-[20px] w-[190px]"> -->
-				<svg class="inline-block h-[28px]">
+				<svg class="inline-block h-[28px] w-[120px] max_lg:h-8">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						viewBox="0 0 640 96.13"
@@ -126,7 +126,7 @@
 			</a>
 			<!-- nvidia -->
 			<a href="https://www.nvidia.com/" target="_blank">
-				<svg class="inline-block h-[28px]">
+				<svg class="inline-block h-[28px] w-[120px] max_lg:h-8">
 					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 974.7 179.7">
 						<path
 							fill="#FFF"
@@ -141,7 +141,7 @@
 			</a>
 			<!-- fremont bank -->
 			<a href="https://www.fremontbank.com/" target="_blank">
-				<svg class="inline-block h-[28px]">
+				<svg class="inline-block h-[28px] w-[120px] max_lg:h-8">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						xml:space="preserve"
@@ -174,12 +174,12 @@
 				</svg>
 			</a>
 			<!-- The partner logo will likely be injected here by the script -->
-			<div id="partner-logo" class="px-12">
+			<div id="partner-logo" class="px-0">
 				<img
 					v-if="!badgeLoaded"
 					src="https://www.numberportability.com/sites/default/files/2025-01/Authorized%20Reseller%20PortData%20Comply%20Registered%20Badge%202025.svg"
 					alt="Partner Logo"
-					class="h-24 w-24 object-contain"
+					class="h-24 w-[80px] object-contain max_lg:h-16"
 				/>
 			</div>
 		</div>
@@ -223,7 +223,7 @@ export default {
 				const partnerLogo = document.getElementById('partner-logo')
 
 				if (badge && partnerLogo) {
-					badge.classList.add('h-24', 'w-24', 'object-contain') // Add consistent classes
+					badge.classList.add('h-24', 'w-[80px]', 'object-contain', 'max_lg:h-16') // Add consistent classes
 					partnerLogo.appendChild(badge)
 					this.badgeLoaded = true // Mark badge as loaded
 					console.log('Badge successfully moved to #partner-logo')
@@ -246,7 +246,7 @@ export default {
 
 <style scoped>
 .footer-strip {
-	@apply fixed bottom-0 left-0 flex h-28 w-full items-center justify-center bg-surface-6/75 pb-2 text-center text-white backdrop-blur max_m_xl:hidden;
+	@apply fixed bottom-0 left-0 flex h-28 w-full items-center justify-center bg-surface-6/75 pb-2 text-center text-white backdrop-blur max_m_xl:hidden max_m_xl:h-[300px];
 }
 </style>
 
