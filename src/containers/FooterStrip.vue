@@ -7,16 +7,7 @@
 		<div class="mt-2 flex w-full items-center justify-center gap-4">
 			<!-- <span class="text-base font-bold uppercase text-surface-3/25">Partners</span> -->
 
-			<!-- The partner logo will likely be injected here by the script -->
-			<div id="partner-logo" class="px-12">
-				<img
-					v-if="!badgeLoaded"
-					src="https://www.numberportability.com/sites/default/files/2025-01/Authorized%20Reseller%20PortData%20Comply%20Registered%20Badge%202025.svg"
-					alt="Partner Logo"
-					class="h-24 w-24 object-contain"
-				/>
-			</div>
-
+			<!-- graid -->
 			<a href="https://www.graidtech.com/" target="_blank">
 				<!-- <svg class="inline-block h-[20px] w-[190px]"> -->
 				<svg class="inline-block h-[28px]">
@@ -133,6 +124,7 @@
 					</svg>
 				</svg>
 			</a>
+			<!-- nvidia -->
 			<a href="https://www.nvidia.com/" target="_blank">
 				<svg class="inline-block h-[28px]">
 					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 974.7 179.7">
@@ -147,26 +139,7 @@
 					</svg>
 				</svg>
 			</a>
-			<!-- <a href="https://iconectiv.com/" target="_blank">
-				<svg class="inline-block h-[14px] w-[165px]">
-					<svg xmlns="http://www.w3.org/2000/svg" x="0" y="0" version="1.1" viewBox="0 0 483 89.2">
-						<path fill="#FFF" d="M18.8 87.5 2.5 87.5 2.5 67.9 2.5 33.1 18.8 33.1z" />
-						<path
-							fill="#FFF"
-							d="M73 49.7c-3.5-3.3-7-5.3-12-5.3-9.2 0-14.4 8.2-14.4 16.2 0 8.5 5.7 15.6 15 15.6 4.4-.1 8.5-2 11.4-5.2v15c-4.3 2.2-9.2 3.4-14 3.3-15.8.2-28.7-12.3-29-28v-.8c0-16.2 12.4-29.1 29.7-29.1 4.6 0 9.2 1.1 13.3 3.4v14.9zM99.7 60.3c0 7.3 5.1 15.2 13.5 15.2s13.5-7.9 13.5-15.2c0-7.5-5.1-15.3-13.5-15.3s-13.5 7.7-13.5 15.3m43.5 0c0 16.9-12.1 28.9-30 28.9s-30-12.1-30-28.9 12.2-29 30-29 30 12.1 30 29M171 38.1h.2c3.4-4.9 9.1-6.8 14.9-6.8 15.4 0 19.8 10.3 19.8 22.9v33.2h-16.3V58.7c0-6.5.3-15-8.9-15-9.7 0-9.8 10.3-9.8 16.8v27h-16.3V33.1H171v5zM256.7 53.1c-.8-5.5-4.5-11-10.8-11-6.5 0-11.2 5.3-12 11h22.8zm-23.3 9.7c0 6.9 3.8 14.6 12.3 14.6 5.4 0 8.7-3.1 11-7.4l15 2.3c-4 10.9-14 17-26 17-17.7 0-28.5-12-28.5-28.5s9.2-29.5 27.8-29.5c18.7 0 27.1 13.2 27.1 29.6v1.9h-38.7zM324.1 49.7c-3.5-3.3-7-5.3-12-5.3-9.2 0-14.4 8.2-14.4 16.2 0 8.5 5.7 15.6 15 15.6 4.4-.1 8.5-2 11.4-5.2v15c-4.3 2.2-9.2 3.4-14.1 3.3-15.7.2-28.6-12.3-28.8-28v-.8c0-16.2 12.5-29.1 29.7-29.1 4.6 0 9.2 1.1 13.3 3.4l-.1 14.9z"
-						/>
-						<path fill="#FFF" d="M392.1 87.5 375.8 87.5 375.8 33.1 392.1 33.1 392.1 63.2z" />
-						<path
-							fill="#FFF"
-							d="M431.8 63.8 443.5 33.1 461.4 33.1 435.1 87.5 426.7 87.5 400.5 33.1 418.4 33.1z"
-						/>
-						<path
-							fill="#FFF"
-							d="M352.8 70.3c0 2.5 1.3 3.9 3.9 3.9h6.1v14.6l-9.6.4c-14.1 0-16.7-10-16.7-18.8V23h16.3v10h10v13.1h-10v24.2zM10.7 0C4.8 0 0 4.8 0 10.7s4.8 10.7 10.7 10.7 10.7-4.8 10.7-10.7C21.3 4.8 16.6 0 10.7 0M384 0c-5.9 0-10.7 4.8-10.7 10.7s4.8 10.7 10.7 10.7c5.9 0 10.7-4.8 10.7-10.7C394.6 4.8 389.9 0 384 0M475.3 25.4c1.3 0 2.6.4 3.8 1 1.2.7 2.2 1.6 2.9 2.9 1.4 2.4 1.4 5.3 0 7.7-.7 1.2-1.6 2.2-2.8 2.9-2.4 1.4-5.3 1.4-7.7 0-1.2-.7-2.2-1.6-2.8-2.9-1.4-2.4-1.4-5.3 0-7.7.7-1.2 1.7-2.2 2.9-2.9 1-.6 2.3-1 3.7-1zm0 1.3c-1.1 0-2.2.3-3.2.8s-1.8 1.4-2.4 2.4c-1.1 2-1.1 4.4 0 6.4.5 1 1.4 1.8 2.4 2.4 2 1.1 4.4 1.1 6.4 0 1-.6 1.8-1.4 2.4-2.4 1.1-2 1.1-4.4 0-6.4-.6-1-1.4-1.8-2.4-2.4-1-.5-2.1-.8-3.2-.8zm-3.4 10.7v-8.3h2.8c.7 0 1.4 0 2.1.2.4.1.8.4 1 .8.3.4.4.8.4 1.2 0 .6-.2 1.2-.7 1.6-.5.5-1.1.7-1.7.8.3.1.5.3.7.4.5.5.9 1.1 1.2 1.6l1 1.6h-1.6l-.7-1.3c-.3-.7-.8-1.4-1.4-1.9-.3-.2-.7-.3-1.1-.3h-.8v3.5l-1.2.1zm1.3-4.7h1.6c.6.1 1.1-.1 1.6-.4.5-.4.6-1.1.2-1.6-.1-.2-.3-.3-.6-.4-.4-.1-.9-.2-1.3-.1h-1.5v2.5z"
-						/>
-					</svg>
-				</svg>
-			</a> -->
+			<!-- fremont bank -->
 			<a href="https://www.fremontbank.com/" target="_blank">
 				<svg class="inline-block h-[28px]">
 					<svg
@@ -200,6 +173,15 @@
 					</svg>
 				</svg>
 			</a>
+			<!-- The partner logo will likely be injected here by the script -->
+			<div id="partner-logo" class="px-12">
+				<img
+					v-if="!badgeLoaded"
+					src="https://www.numberportability.com/sites/default/files/2025-01/Authorized%20Reseller%20PortData%20Comply%20Registered%20Badge%202025.svg"
+					alt="Partner Logo"
+					class="h-24 w-24 object-contain"
+				/>
+			</div>
 		</div>
 	</div>
 </template>
