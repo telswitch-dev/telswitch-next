@@ -4,13 +4,15 @@
 
 <template>
 	<div class="footer-strip">
-		<div class="mt-2 flex w-full items-center justify-center gap-8 max_m_xl:flex-col">
+		<div
+			class="mt-2 flex w-full items-center justify-center gap-16 max_m_xl:flex-col max_m_xl:gap-8"
+		>
 			<!-- <span class="text-base font-bold uppercase text-surface-3/25">Partners</span> -->
 
 			<!-- graid -->
 			<a href="https://www.graidtech.com/" target="_blank">
 				<!-- <svg class="inline-block h-[20px] w-[190px]"> -->
-				<svg class="inline-block h-[28px] w-[120px] max_lg:h-8">
+				<svg class="inline-block h-[28px] w-[180px] max_lg:h-8 max_lg:w-[120px]">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						viewBox="0 0 640 96.13"
@@ -126,7 +128,7 @@
 			</a>
 			<!-- nvidia -->
 			<a href="https://www.nvidia.com/" target="_blank">
-				<svg class="inline-block h-[28px] w-[120px] max_lg:h-8">
+				<svg class="inline-block h-[28px] w-[180px] max_lg:h-8 max_lg:w-[120px]">
 					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 974.7 179.7">
 						<path
 							fill="#FFF"
@@ -141,7 +143,7 @@
 			</a>
 			<!-- fremont bank -->
 			<a href="https://www.fremontbank.com/" target="_blank">
-				<svg class="inline-block h-[28px] w-[120px] max_lg:h-8">
+				<svg class="inline-block h-[28px] w-[180px] max_lg:h-8 max_lg:w-[120px]">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						xml:space="preserve"
