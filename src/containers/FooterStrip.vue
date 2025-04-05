@@ -6,14 +6,20 @@
 	<div class="footer-strip">
 		<div class="mt-2 flex w-full items-center justify-center gap-4">
 			<!-- <span class="text-base font-bold uppercase text-surface-3/25">Partners</span> -->
-			<span>
-				<!-- <script
-					async
-					src="https://numberportability.com/sites/default/files/badges/1696/script.js"
-				></script> -->
-			</span>
+
+			<!-- The partner logo will likely be injected here by the script -->
+			<div id="partner-logo" class="px-12">
+				<img
+					v-if="!badgeLoaded"
+					src="https://www.numberportability.com/sites/default/files/2025-01/Authorized%20Reseller%20PortData%20Comply%20Registered%20Badge%202025.svg"
+					alt="Partner Logo"
+					class="h-24 w-24 object-contain"
+				/>
+			</div>
+
 			<a href="https://www.graidtech.com/" target="_blank">
-				<svg class="inline-block h-[20px] w-[190px]">
+				<!-- <svg class="inline-block h-[20px] w-[190px]"> -->
+				<svg class="inline-block h-[28px]">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						viewBox="0 0 640 96.13"
@@ -128,7 +134,7 @@
 				</svg>
 			</a>
 			<a href="https://www.nvidia.com/" target="_blank">
-				<svg class="inline-block h-[16px] w-[180px]">
+				<svg class="inline-block h-[28px]">
 					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 974.7 179.7">
 						<path
 							fill="#FFF"
@@ -162,7 +168,7 @@
 				</svg>
 			</a> -->
 			<a href="https://www.fremontbank.com/" target="_blank">
-				<svg class="inline-block h-[18px] w-[120px]">
+				<svg class="inline-block h-[28px]">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						xml:space="preserve"
@@ -198,11 +204,67 @@
 	</div>
 </template>
 
-<script></script>
+<script>
+export default {
+	data() {
+		return {
+			badgeLoaded: false, // Track if the badge was successfully loaded
+		}
+	},
+
+	mounted() {
+		const script = document.createElement('script')
+		script.src = 'https://numberportability.com/sites/default/files/badges/1696/script.js'
+		script.async = true
+
+		script.onload = () => {
+			console.log('Script loaded successfully')
+
+			// Perform domain validation
+			let validationsPassed = false
+			if (typeof badgeConfig !== 'undefined' && badgeConfig.domains && badgeConfig.domains.length) {
+				let hostName = window.location.hostname
+				const parts = hostName.split('.')
+				if (parts.length >= 2) {
+					hostName = parts.slice(-2).join('.') // Extract the base domain
+				}
+				validationsPassed = badgeConfig.domains.includes(hostName)
+			} else {
+				validationsPassed = true // Allow if no domains are defined
+			}
+
+			console.log('Domain validation passed:', validationsPassed)
+
+			if (validationsPassed) {
+				// Move the injected badge into #partner-logo
+				const badge = script.nextElementSibling // The badge should be inserted after the script
+				const partnerLogo = document.getElementById('partner-logo')
+
+				if (badge && partnerLogo) {
+					badge.classList.add('h-24', 'w-24', 'object-contain') // Add consistent classes
+					partnerLogo.appendChild(badge)
+					this.badgeLoaded = true // Mark badge as loaded
+					console.log('Badge successfully moved to #partner-logo')
+				} else {
+					console.warn('Badge not found or #partner-logo element is missing')
+				}
+			} else {
+				console.warn('Domain validation failed. Provided badge will not be displayed.')
+			}
+		}
+
+		script.onerror = () => {
+			console.error('Failed to load script')
+		}
+
+		document.body.appendChild(script)
+	},
+}
+</script>
 
 <style scoped>
 .footer-strip {
-	@apply fixed bottom-0 left-0 flex h-14 w-full items-center justify-center bg-surface-6/75 pb-2 text-center text-white backdrop-blur max_m_xl:hidden;
+	@apply fixed bottom-0 left-0 flex h-28 w-full items-center justify-center bg-surface-6/75 pb-2 text-center text-white backdrop-blur max_m_xl:hidden;
 }
 </style>
 
