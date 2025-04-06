@@ -1,7 +1,27 @@
 <!--	Hero.vue
 ============================================================================= -->
 <script setup>
-// JavaScript code for the component goes here
+import { ref, onMounted } from 'vue'
+import { fetchDataPoints } from '@/contentfulService'
+import DataPoint from '@/components/DataPoint.vue'
+
+// Reactive variable to store fetched data
+const dataPoints = ref([])
+
+// Function to fetch data asynchronously
+const loadDataPoints = async () => {
+	try {
+		const fetchedData = await fetchDataPoints()
+		dataPoints.value = fetchedData
+	} catch (error) {
+		console.error('Error fetching data points:', error)
+	}
+}
+
+// Call the async function inside onMounted synchronously
+onMounted(() => {
+	loadDataPoints()
+})
 </script>
 
 <template>
@@ -35,45 +55,61 @@
 		<!--	stat-bar
 		============================================================================= -->
 		<div class="stat-bar fade-in fast">
+			<!-- <DataPoint
+				value="93"
+				label="Projects Initiated"
+				year="2023"
+				modifiedDate="2025-04-01T10:00:00Z"
+			/> -->
+
+			<DataPoint
+				v-for="(data, index) in dataPoints"
+				:key="index"
+				:value="data.value"
+				:label="data.label"
+				:year="data.year"
+				:modifiedDate="data.modifiedDate"
+			/>
+
 			<!-- item -->
-			<div class="stat-bar-item fade-in">
+			<!-- <div class="stat-bar-item fade-in">
 				<span class="stat-bar-item-value"> 93 </span>
 				<div class="stat-bar-item-label">
 					<span>Projects Initiated</span> <br />
 					<strong>2023</strong>
 				</div>
-			</div>
+			</div> -->
 
-			<div class="stat-bar-item fade-in">
+			<!-- <div class="stat-bar-item fade-in">
 				<span class="stat-bar-item-value"> 113 </span>
 				<div class="stat-bar-item-label">
 					<span>Projects Initiated</span> <br />
 					<strong>2024</strong>
 				</div>
-			</div>
+			</div> -->
 
-			<div class="stat-bar-item fade-in">
+			<!-- <div class="stat-bar-item fade-in">
 				<span class="stat-bar-item-value"> 121 </span>
 				<div class="stat-bar-item-label">
 					<span>National DNC</span> <br />
 					<span>Audits</span>
 				</div>
-			</div>
+			</div> -->
 
-			<div class="stat-bar-item fade-in">
+			<!--<div class="stat-bar-item fade-in">
 				<span class="stat-bar-item-value" title="Aproximation of DNC Records Aggregated in 2023">
 					91,881,927,289
-					<!-- <sup
+					<!~~ <sup
 						class="inline-block -translate-y-5 text-xs text-ts-green-mineral-400 max_xl:-translate-y-2"
 					>
 						*
-					</sup> -->
+					</sup> ~~>
 				</span>
 				<div class="stat-bar-item-label">
 					<span>DNC Records</span><br />
 					<span class="">Consumed in 2024</span>
 				</div>
-			</div>
+			</div>-->
 		</div>
 	</div>
 </template>

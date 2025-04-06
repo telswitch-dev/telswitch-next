@@ -33,3 +33,12 @@ AOS.init()
 app.mount('#app')
 
 document.body.classList.add('dark')
+
+// Testing Contentful
+// import './testContentful'
+
+// import { fetchDataPoints } from './contentfulService'
+
+// fetchDataPoints().then((dataPoints) => {
+// 	console.log('Fetched data points:', dataPoints)
+// })
