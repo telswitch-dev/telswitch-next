@@ -1,6 +1,7 @@
 import client from './contentful'
 
 export const fetchDataPoints = async () => {
+	// throw new Error('Simulated Contentful API failure') // Force an error for testing
 	try {
 		const response = await client.getEntries({
 			content_type: 'dataPoint',
