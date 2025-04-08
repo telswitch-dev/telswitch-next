@@ -184,7 +184,7 @@
 				</svg>
 			</a>
 			<!-- somos -->
-			<a href="https://www.fremontbank.com/" target="_blank">
+			<a href="https://www.somos.com/" target="_blank">
 				<svg class="inline-block h-[40px] w-[180px] max_lg:h-8 max_lg:w-[120px]">
 					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 49">
 						<g id="logo-sketch.svg" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
