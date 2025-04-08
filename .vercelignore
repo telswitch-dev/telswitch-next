@@ -1,1 +1,7 @@
+___*
 .git/
+node_modules/
+*.log
+dist/
+
+src/assets/video/___*
