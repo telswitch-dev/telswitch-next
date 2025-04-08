@@ -10,9 +10,17 @@
 			<!-- <span class="text-base font-bold uppercase text-surface-3/25">Partners</span> -->
 
 			<!-- graid -->
-			<a href="https://www.graidtech.com/" target="_blank">
+			<a
+				href="https://www.graidtech.com/"
+				target="_blank"
+				aria-label="Visit Graid Technology website"
+				rel="noopener noreferrer"
+			>
 				<!-- <svg class="inline-block h-[20px] w-[190px]"> -->
-				<svg class="inline-block h-[28px] w-[180px] max_lg:h-8 max_lg:w-[120px]">
+				<svg
+					aria-label="Graid Technology Logo"
+					class="inline-block h-[28px] w-[180px] max_lg:h-8 max_lg:w-[120px]"
+				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						viewBox="0 0 640 96.13"
@@ -182,6 +190,7 @@
 					src="https://www.numberportability.com/sites/default/files/2025-01/Authorized%20Reseller%20PortData%20Comply%20Registered%20Badge%202025.svg"
 					alt="Partner Logo"
 					class="h-24 w-[80px] object-contain max_lg:h-16"
+					loading="lazy"
 				/>
 			</div>
 		</div>
@@ -239,6 +248,7 @@ export default {
 
 		script.onerror = () => {
 			console.error('Failed to load script')
+			this.badgeLoaded = false // Ensure the fallback image remains visible
 		}
 
 		document.body.appendChild(script)
