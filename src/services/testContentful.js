@@ -1,4 +1,4 @@
-import client from './contentful' // Default import
+import client from '@/services/contentful' // Default import
 
 // Fetch entries from Contentful
 client

@@ -37,7 +37,7 @@ document.body.classList.add('dark')
 // Testing Contentful
 // import './testContentful'
 
-// import { fetchDataPoints } from './contentfulService'
+// import { fetchDataPoints } from './services/contentfulService'
 
 // fetchDataPoints().then((dataPoints) => {
 // 	console.log('Fetched data points:', dataPoints)

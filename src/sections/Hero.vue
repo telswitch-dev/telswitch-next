@@ -2,7 +2,7 @@
 ============================================================================= -->
 <script setup>
 import { ref, onMounted } from 'vue'
-import { fetchDataPoints } from '@/contentfulService'
+import { fetchDataPoints } from '@/services/contentfulService'
 import DataPoint from '@/components/DataPoint.vue'
 
 const dataPoints = ref([])
