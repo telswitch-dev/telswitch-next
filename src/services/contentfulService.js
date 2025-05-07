@@ -7,15 +7,17 @@ export const fetchDataPoints = async () => {
 			content_type: 'dataPoint',
 			order: 'fields.displayOrderIndex', // Sort by DisplayOrderIndex (ascending)
 		})
-		return response.items.map((item) => ({
-			value: item.fields.displayValue,
-			label: item.fields.displayLabel,
-			// year: new Date(item.fields.displayDate).getFullYear().toString(),
-			year: item.fields.displayDate
-				? new Date(item.fields.displayDate).getFullYear().toString() // Extract year if date exists
-				: '\u00A0', // Return non-breaking space if date is blank
-			modifiedDate: item.sys.updatedAt,
-		}))
+		return response.items.map((item) => {
+			// console.log('Raw displayDate:', item.fields.displayDate) // Log the raw date
+			return {
+				value: item.fields.displayValue,
+				label: item.fields.displayLabel,
+				year: item.fields.displayDate
+					? new Date(item.fields.displayDate).getUTCFullYear().toString() // Extract year if date exists
+					: '\u00A0', // Return non-breaking space if date is blank
+				modifiedDate: item.sys.updatedAt,
+			}
+		})
 	} catch (error) {
 		console.error('Error fetching data points:', error)
 		return []
