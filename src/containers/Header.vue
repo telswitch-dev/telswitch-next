@@ -7,13 +7,17 @@
 		<div class="flex items-center justify-between gap-4 p-6 pl-10">
 			<div class="logo overflow-clip">
 				<a href="/">
-					<svg class="h-[40px] max_m_xl:w-[180px]">
+					<!-- <svg class="h-[40px] max_m_xl:w-[180px]"> -->
+					<svg class="h-[40px] max_m_xl:w-[150px]">
 						<use href="@/assets/telswitch-logotype-white.svg#logo" />
 					</svg>
 				</a>
 			</div>
 			<div class="flex flex-col items-center justify-between gap-[3px]">
-				<svg class="h-[38px] w-[120px] fill-current text-surface-2 max_m_xl:w-[90px]">
+				<!-- <svg class="h-[38px] w-[120px] fill-current text-surface-2 max_m_xl:w-[90px]"> -->
+				<svg
+					class="h-[38px] w-[120px] fill-current text-surface-2 max_m_xl:h-[32px] max_m_xl:w-[90px]"
+				>
 					<use href="@/assets/BHBA_logo_white_all.min.svg#logo" />
 				</svg>
 				<span
