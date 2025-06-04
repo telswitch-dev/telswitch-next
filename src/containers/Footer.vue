@@ -275,7 +275,7 @@
 						</svg>
 					</a>
 					<!-- BHBA -->
-					<div class="flex flex-col items-center justify-between max_m_xl:hidden">
+					<div class="flex flex-col items-center justify-between">
 						<!-- <svg class="h-[38px] w-[120px] fill-current text-surface-2 max_m_xl:w-[90px]"> -->
 						<svg
 							class="h-[38px] w-[120px] fill-current text-surface-2 max_m_xl:h-[32px] max_m_xl:w-[90px]"
