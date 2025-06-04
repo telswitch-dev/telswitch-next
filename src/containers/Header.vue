@@ -5,6 +5,7 @@
 <template>
 	<header class="">
 		<div class="flex items-center justify-between gap-4 p-6 pl-10">
+			<!-- logo -->
 			<div class="logo flex-1 overflow-clip">
 				<a href="/">
 					<!-- <svg class="h-[40px] max_m_xl:w-[180px]"> -->
@@ -13,7 +14,9 @@
 					</svg>
 				</a>
 			</div>
-			<div class="flex flex-col items-center justify-between gap-[3px]">
+
+			<!-- BHBA -->
+			<div class="flex flex-col items-center justify-between gap-[3px] max_m_xl:hidden">
 				<!-- <svg class="h-[38px] w-[120px] fill-current text-surface-2 max_m_xl:w-[90px]"> -->
 				<svg
 					class="h-[38px] w-[120px] fill-current text-surface-2 max_m_xl:h-[32px] max_m_xl:w-[90px]"
@@ -28,6 +31,7 @@
 				</span>
 			</div>
 
+			<!-- navigation -->
 			<div>
 				<!-- This div becomes visible when the viewport is mobile size and the mobile navigation is active -->
 				<div
