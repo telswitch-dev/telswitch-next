@@ -27,3 +27,4 @@ ___*
 .env
 .env*
 .vercel
+*.afdesign*

@@ -12,6 +12,15 @@
 					</svg>
 				</a>
 			</div>
+			<div class="flex flex-col items-center justify-between gap-[3px]">
+				<svg class="h-[38px] w-[120px] fill-current text-surface-2 max_m_xl:w-[20px]">
+					<use href="@/assets/BHBA_logo_white_all.min.svg#logo" />
+				</svg>
+				<span class="text-[8px] uppercase tracking-widest text-ts-green-mineral-500">
+					<!-- <span class="text-[8px] uppercase tracking-widest text-ts-coffee-roman-600"> -->
+					non-attorney member
+				</span>
+			</div>
 
 			<div>
 				<!-- This div becomes visible when the viewport is mobile size and the mobile navigation is active -->
