@@ -8,15 +8,15 @@
 			<!-- logo -->
 			<div class="logo overflow-clip max_m_xl:flex-1">
 				<a href="/">
-					<!-- <svg class="h-[40px] max_m_xl:w-[180px]"> -->
-					<svg class="h-[40px] max_m_xl:w-[120px]">
+					<svg class="h-[40px] max_m_xl:w-[180px]">
+						<!-- <svg class="h-[40px] max_m_xl:w-[120px]"> -->
 						<use href="@/assets/telswitch-logotype-white.svg#logo" />
 					</svg>
 				</a>
 			</div>
 
 			<!-- BHBA -->
-			<div class="flex flex-col items-center justify-between gap-[3px] max_m_xl:hidden">
+			<div class="flex flex-col items-center justify-between gap-[3px]">
 				<!-- <svg class="h-[38px] w-[120px] fill-current text-surface-2 max_m_xl:w-[90px]"> -->
 				<svg
 					class="h-[38px] w-[120px] fill-current text-surface-2 max_m_xl:h-[32px] max_m_xl:w-[90px]"
