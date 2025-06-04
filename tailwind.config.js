@@ -18,7 +18,7 @@ export default {
 				max_lg: { max: '1024px' }, // laptop_sm, tablet_lg
 				max_md: { max: '768px' }, // tablet
 
-				max_m_xl: { max: '430px' }, // iPhone Pro Max, Pixel C
+				max_m_xl: { max: '440px' }, // iPhone Pro Max, Pixel C
 				max_m_lg: { max: '415px' }, // iPhone Pro, Pixel XL ***
 				max_m_md: { max: '375px' }, // iPhone, Samsung Galaxy ***
 				max_m_sm: { max: '320px' }, // iPhone (older)
