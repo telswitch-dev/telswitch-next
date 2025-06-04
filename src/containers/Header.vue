@@ -8,7 +8,7 @@
 			<div class="logo flex-1 overflow-clip">
 				<a href="/">
 					<!-- <svg class="h-[40px] max_m_xl:w-[180px]"> -->
-					<svg class="h-[40px] max_m_xl:w-[180px]">
+					<svg class="h-[40px] max_m_xl:w-[120px]">
 						<use href="@/assets/telswitch-logotype-white.svg#logo" />
 					</svg>
 				</a>
