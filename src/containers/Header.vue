@@ -6,7 +6,7 @@
 	<header class="">
 		<div class="flex items-center justify-between gap-4 p-6 pl-10">
 			<!-- logo -->
-			<div class="logo flex-1 overflow-clip">
+			<div class="logo overflow-clip max_m_xl:flex-1">
 				<a href="/">
 					<!-- <svg class="h-[40px] max_m_xl:w-[180px]"> -->
 					<svg class="h-[40px] max_m_xl:w-[120px]">

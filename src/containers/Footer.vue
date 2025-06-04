@@ -4,7 +4,7 @@
 
 <template>
 	<footer
-		class="h-[500px] w-full bg-surface-5 bg-gradient-to-br from-surface-4 to-surface-5 text-surface-2 max_m_xl:h-[1000px]"
+		class="h-[560px] w-full bg-surface-5 bg-gradient-to-br from-surface-4 to-surface-5 text-surface-2 max_m_xl:h-[1000px]"
 	>
 		<!-- <footer
 		class="flex min-h-[900px] w-full flex-col justify-start gap-8 bg-surface-5 bg-gradient-to-br from-surface-4 to-surface-5 p-8 text-surface-2"
@@ -274,8 +274,24 @@
 							</svg>
 						</svg>
 					</a>
+					<!-- BHBA -->
+					<div class="flex flex-col items-center justify-between max_m_xl:hidden">
+						<!-- <svg class="h-[38px] w-[120px] fill-current text-surface-2 max_m_xl:w-[90px]"> -->
+						<svg
+							class="h-[38px] w-[120px] fill-current text-surface-2 max_m_xl:h-[32px] max_m_xl:w-[90px]"
+						>
+							<use href="@/assets/BHBA_logo_white_all.min.svg#logo" />
+						</svg>
+						<!-- <span
+							class="text-[8px] uppercase tracking-widest text-ts-green-mineral-500 max_m_xl:text-[6px]"
+						> -->
+						<span class="text-[8px] uppercase tracking-widest text-ts-coffee-roman-400">
+							non-attorney member
+						</span>
+					</div>
 				</div>
 			</div>
+
 			<!-- contact -->
 			<div
 				class="flex-1 rounded-2xl border border-surface-4 bg-surface-4 p-8 text-lg drop-shadow-lg"
